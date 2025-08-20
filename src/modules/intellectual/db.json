@@ -84,6 +84,11 @@
       "id": 116,
       "name": "商标文档类型",
       "key": "intellectual_trademark_document_type"
+    },
+    {
+      "id": 117,
+      "name": "专利文档名称",
+      "key": "intellectual_patent_document_name"
     }
   ],
   "dict_info": [
@@ -599,6 +604,366 @@
       "orderNum": 4,
       "parentId": null,
       "remark": "其他商标相关文件"
+    },
+    {
+      "id": 1170,
+      "typeId": 117,
+      "name": "受理通知书",
+      "value": "0",
+      "orderNum": 1,
+      "parentId": null,
+      "remark": "专利申请受理通知书"
+    },
+    {
+      "id": 1171,
+      "typeId": 117,
+      "name": "费减通知书",
+      "value": "1",
+      "orderNum": 2,
+      "parentId": null,
+      "remark": "专利费用减缓通知书"
+    },
+    {
+      "id": 1172,
+      "typeId": 117,
+      "name": "专利证书",
+      "value": "2",
+      "orderNum": 3,
+      "parentId": null,
+      "remark": "专利权证书"
+    },
+    {
+      "id": 1173,
+      "typeId": 117,
+      "name": "著录变更手续合格通知书",
+      "value": "3",
+      "orderNum": 4,
+      "parentId": null,
+      "remark": "专利著录变更手续合格通知书"
+    },
+    {
+      "id": 1174,
+      "typeId": 117,
+      "name": "第一次审查意见",
+      "value": "4",
+      "orderNum": 5,
+      "parentId": null,
+      "remark": "专利第一次审查意见通知书"
+    },
+    {
+      "id": 1175,
+      "typeId": 117,
+      "name": "第二次审查意见",
+      "value": "5",
+      "orderNum": 6,
+      "parentId": null,
+      "remark": "专利第二次审查意见通知书"
+    },
+    {
+      "id": 1176,
+      "typeId": 117,
+      "name": "第三次审查意见",
+      "value": "6",
+      "orderNum": 7,
+      "parentId": null,
+      "remark": "专利第三次审查意见通知书"
+    },
+    {
+      "id": 1177,
+      "typeId": 117,
+      "name": "第四次审查意见",
+      "value": "7",
+      "orderNum": 8,
+      "parentId": null,
+      "remark": "专利第四次审查意见通知书"
+    },
+    {
+      "id": 1178,
+      "typeId": 117,
+      "name": "授权通知书",
+      "value": "8",
+      "orderNum": 9,
+      "parentId": null,
+      "remark": "专利授权通知书"
+    },
+    {
+      "id": 1179,
+      "typeId": 117,
+      "name": "办理登记手续通知书",
+      "value": "9",
+      "orderNum": 10,
+      "parentId": null,
+      "remark": "专利办理登记手续通知书"
+    },
+    {
+      "id": 1180,
+      "typeId": 117,
+      "name": "补正通知书",
+      "value": "10",
+      "orderNum": 11,
+      "parentId": null,
+      "remark": "专利申请补正通知书"
+    },
+    {
+      "id": 1181,
+      "typeId": 117,
+      "name": "专利权终止通知书",
+      "value": "11",
+      "orderNum": 12,
+      "parentId": null,
+      "remark": "专利权终止通知书"
+    },
+    {
+      "id": 1182,
+      "typeId": 117,
+      "name": "电子申请注册来申请批通知书",
+      "value": "12",
+      "orderNum": 13,
+      "parentId": null,
+      "remark": "电子申请注册来申请批通知书"
+    },
+    {
+      "id": 1183,
+      "typeId": 117,
+      "name": "缴费通知书",
+      "value": "13",
+      "orderNum": 14,
+      "parentId": null,
+      "remark": "专利缴费通知书"
+    },
+    {
+      "id": 1184,
+      "typeId": 117,
+      "name": "专利申请停止优先审查通知书",
+      "value": "14",
+      "orderNum": 15,
+      "parentId": null,
+      "remark": "专利申请停止优先审查通知书"
+    },
+    {
+      "id": 1185,
+      "typeId": 117,
+      "name": "非正常初步确认意见通知书（申请人）",
+      "value": "15",
+      "orderNum": 16,
+      "parentId": null,
+      "remark": "非正常初步确认意见通知书（申请人）"
+    },
+    {
+      "id": 1186,
+      "typeId": 117,
+      "name": "专利收据",
+      "value": "16",
+      "orderNum": 17,
+      "parentId": null,
+      "remark": "专利相关费用收据"
+    },
+    {
+      "id": 1187,
+      "typeId": 117,
+      "name": "驳回通知书",
+      "value": "17",
+      "orderNum": 18,
+      "parentId": null,
+      "remark": "专利申请驳回通知书"
+    },
+    {
+      "id": 1188,
+      "typeId": 117,
+      "name": "专利权终止通知书",
+      "value": "18",
+      "orderNum": 19,
+      "parentId": null,
+      "remark": "专利权终止通知书"
+    },
+    {
+      "id": 1189,
+      "typeId": 117,
+      "name": "退款审批通知书",
+      "value": "19",
+      "orderNum": 20,
+      "parentId": null,
+      "remark": "专利费用退款审批通知书"
+    },
+    {
+      "id": 1190,
+      "typeId": 117,
+      "name": "专利权终止通知书",
+      "value": "20",
+      "orderNum": 21,
+      "parentId": null,
+      "remark": "专利权终止通知书"
+    },
+    {
+      "id": 1191,
+      "typeId": 117,
+      "name": "发明专利初步审查合格通知书",
+      "value": "21",
+      "orderNum": 22,
+      "parentId": null,
+      "remark": "发明专利初步审查合格通知书"
+    },
+    {
+      "id": 1192,
+      "typeId": 117,
+      "name": "视为放弃取得专利权通知书",
+      "value": "22",
+      "orderNum": 23,
+      "parentId": null,
+      "remark": "视为放弃取得专利权通知书"
+    },
+    {
+      "id": 1193,
+      "typeId": 117,
+      "name": "检索报告",
+      "value": "23",
+      "orderNum": 24,
+      "parentId": null,
+      "remark": "专利检索报告"
+    },
+    {
+      "id": 1194,
+      "typeId": 117,
+      "name": "视为撤回通知书",
+      "value": "24",
+      "orderNum": 25,
+      "parentId": null,
+      "remark": "专利申请视为撤回通知书"
+    },
+    {
+      "id": 1195,
+      "typeId": 117,
+      "name": "视为未提出通知书",
+      "value": "25",
+      "orderNum": 26,
+      "parentId": null,
+      "remark": "专利申请视为未提出通知书"
+    },
+    {
+      "id": 1196,
+      "typeId": 117,
+      "name": "发明专利进入实审通知书",
+      "value": "26",
+      "orderNum": 27,
+      "parentId": null,
+      "remark": "发明专利进入实质审查通知书"
+    },
+    {
+      "id": 1197,
+      "typeId": 117,
+      "name": "复审决定书",
+      "value": "27",
+      "orderNum": 28,
+      "parentId": null,
+      "remark": "专利复审决定书"
+    },
+    {
+      "id": 1198,
+      "typeId": 117,
+      "name": "审查业务专用函",
+      "value": "28",
+      "orderNum": 29,
+      "parentId": null,
+      "remark": "专利审查业务专用函"
+    },
+    {
+      "id": 1199,
+      "typeId": 117,
+      "name": "发明专利申请公布通知书",
+      "value": "29",
+      "orderNum": 30,
+      "parentId": null,
+      "remark": "发明专利申请公布通知书"
+    },
+    {
+      "id": 1200,
+      "typeId": 117,
+      "name": "办理恢复利请求批通知书",
+      "value": "30",
+      "orderNum": 31,
+      "parentId": null,
+      "remark": "办理恢复利请求批通知书"
+    },
+    {
+      "id": 1201,
+      "typeId": 117,
+      "name": "恢复权利请求审批通知书",
+      "value": "31",
+      "orderNum": 32,
+      "parentId": null,
+      "remark": "恢复权利请求审批通知书"
+    },
+    {
+      "id": 1202,
+      "typeId": 117,
+      "name": "登记薄副本",
+      "value": "32",
+      "orderNum": 33,
+      "parentId": null,
+      "remark": "专利登记薄副本"
+    },
+    {
+      "id": 1203,
+      "typeId": 117,
+      "name": "手续合格通知书（同意撤回）",
+      "value": "33",
+      "orderNum": 34,
+      "parentId": null,
+      "remark": "手续合格通知书（同意撤回）"
+    },
+    {
+      "id": 1204,
+      "typeId": 117,
+      "name": "发明专利公布公告及进入实审通知书",
+      "value": "34",
+      "orderNum": 35,
+      "parentId": null,
+      "remark": "发明专利公布公告及进入实审通知书"
+    },
+    {
+      "id": 1205,
+      "typeId": 117,
+      "name": "证书副本",
+      "value": "35",
+      "orderNum": 36,
+      "parentId": null,
+      "remark": "专利证书副本"
+    },
+    {
+      "id": 1206,
+      "typeId": 117,
+      "name": "专利权终止通知书",
+      "value": "36",
+      "orderNum": 37,
+      "parentId": null,
+      "remark": "专利权终止通知书"
+    },
+    {
+      "id": 1207,
+      "typeId": 117,
+      "name": "专利申请停止优先审查通知书",
+      "value": "37",
+      "orderNum": 38,
+      "parentId": null,
+      "remark": "专利申请停止优先审查通知书"
+    },
+    {
+      "id": 1208,
+      "typeId": 117,
+      "name": "非正常专利申请确认意见通知书",
+      "value": "38",
+      "orderNum": 39,
+      "parentId": null,
+      "remark": "非正常专利申请确认意见通知书"
+    },
+    {
+      "id": 1209,
+      "typeId": 117,
+      "name": "其它",
+      "value": "39",
+      "orderNum": 40,
+      "parentId": null,
+      "remark": "其他专利文档"
     }
   ]
 }
