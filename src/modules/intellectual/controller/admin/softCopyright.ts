@@ -12,7 +12,7 @@ import { IntellectualSoftCopyrightService } from '../../service/softCopyright';
   service: IntellectualSoftCopyrightService,
   pageQueryOp: {
     keyWordLikeFields: ['a.name', 'a.registrationNumber', 'a.serialNumber'],
-    fieldEq: ['a.category', 'a.legalStatus'],
+    fieldEq: ['a.category', 'a.legalStatus', 'a.serialNumber'],
   },
 })
 export class AdminIntellectualSoftCopyrightController extends BaseController {}
