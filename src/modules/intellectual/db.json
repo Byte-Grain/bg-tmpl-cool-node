@@ -1,0 +1,604 @@
+{
+  "dict_type": [
+    {
+      "id": 100,
+      "name": "专利类型",
+      "key": "intellectual_patent_type"
+    },
+    {
+      "id": 101,
+      "name": "法律状态",
+      "key": "intellectual_legal_status"
+    },
+    {
+      "id": 102,
+      "name": "专利级别",
+      "key": "intellectual_patent_level"
+    },
+    {
+      "id": 103,
+      "name": "机构类型",
+      "key": "intellectual_organization_type"
+    },
+    {
+      "id": 104,
+      "name": "商标类型",
+      "key": "intellectual_trademark_type"
+    },
+    {
+      "id": 105,
+      "name": "商标状态",
+      "key": "intellectual_trademark_status"
+    },
+    {
+      "id": 106,
+      "name": "版权类型",
+      "key": "intellectual_copyright_type"
+    },
+    {
+      "id": 107,
+      "name": "版权状态",
+      "key": "intellectual_copyright_status"
+    },
+    {
+      "id": 108,
+      "name": "软件分类",
+      "key": "intellectual_software_category"
+    },
+    {
+      "id": 109,
+      "name": "开发方式",
+      "key": "intellectual_development_method"
+    },
+    {
+      "id": 110,
+      "name": "取得方式",
+      "key": "intellectual_acquisition_method"
+    },
+    {
+      "id": 111,
+      "name": "权利范围",
+      "key": "intellectual_scope_of_right"
+    },
+    {
+      "id": 112,
+      "name": "软件法律状态",
+      "key": "intellectual_software_legal_status"
+    },
+    {
+      "id": 113,
+      "name": "文档类型",
+      "key": "intellectual_document_type"
+    },
+    {
+      "id": 114,
+      "name": "软著文档名称",
+      "key": "intellectual_soft_copyright_document_name"
+    },
+    {
+      "id": 115,
+      "name": "专利文档类型",
+      "key": "intellectual_patent_document_type"
+    },
+    {
+      "id": 116,
+      "name": "商标文档类型",
+      "key": "intellectual_trademark_document_type"
+    }
+  ],
+  "dict_info": [
+    {
+      "id": 1000,
+      "typeId": 100,
+      "name": "发明专利",
+      "value": "0",
+      "orderNum": 1,
+      "parentId": null,
+      "remark": "发明专利是对产品、方法或者其改进所提出的新的技术方案"
+    },
+    {
+      "id": 1001,
+      "typeId": 100,
+      "name": "实用新型专利",
+      "value": "1",
+      "orderNum": 2,
+      "parentId": null,
+      "remark": "实用新型专利是对产品的形状、构造或者其结合所提出的适于实用的新的技术方案"
+    },
+    {
+      "id": 1002,
+      "typeId": 100,
+      "name": "外观设计专利",
+      "value": "2",
+      "orderNum": 3,
+      "parentId": null,
+      "remark": "外观设计专利是对产品的形状、图案或者其结合以及色彩与形状、图案的结合所作出的富有美感并适于工业应用的新设计"
+    },
+    {
+      "id": 1010,
+      "typeId": 101,
+      "name": "待申请",
+      "value": "0",
+      "orderNum": 1,
+      "parentId": null,
+      "remark": "专利申请尚未提交"
+    },
+    {
+      "id": 1011,
+      "typeId": 101,
+      "name": "审查中",
+      "value": "1",
+      "orderNum": 2,
+      "parentId": null,
+      "remark": "专利申请已提交，正在审查过程中"
+    },
+    {
+      "id": 1012,
+      "typeId": 101,
+      "name": "已授权",
+      "value": "2",
+      "orderNum": 3,
+      "parentId": null,
+      "remark": "专利申请已通过审查并获得授权"
+    },
+    {
+      "id": 1013,
+      "typeId": 101,
+      "name": "已驳回",
+      "value": "3",
+      "orderNum": 4,
+      "parentId": null,
+      "remark": "专利申请被驳回"
+    },
+    {
+      "id": 1014,
+      "typeId": 101,
+      "name": "已失效",
+      "value": "4",
+      "orderNum": 5,
+      "parentId": null,
+      "remark": "专利权已失效或过期"
+    },
+    {
+      "id": 1015,
+      "typeId": 101,
+      "name": "待诉讼",
+      "value": "5",
+      "orderNum": 6,
+      "parentId": null,
+      "remark": "专利涉及诉讼程序"
+    },
+    {
+      "id": 1016,
+      "typeId": 101,
+      "name": "驳回复审",
+      "value": "6",
+      "orderNum": 7,
+      "parentId": null,
+      "remark": "专利申请驳回后进入复审程序"
+    },
+    {
+      "id": 1020,
+      "typeId": 102,
+      "name": "壁垒专利",
+      "value": "0",
+      "orderNum": 1,
+      "parentId": null,
+      "remark": "具有重要战略价值的核心专利，能够形成技术壁垒"
+    },
+    {
+      "id": 1021,
+      "typeId": 102,
+      "name": "重要专利",
+      "value": "1",
+      "orderNum": 2,
+      "parentId": null,
+      "remark": "具有较高商业价值的重要专利"
+    },
+    {
+      "id": 1022,
+      "typeId": 102,
+      "name": "普通专利",
+      "value": "2",
+      "orderNum": 3,
+      "parentId": null,
+      "remark": "一般性的专利申请"
+    },
+    {
+      "id": 1030,
+      "typeId": 103,
+      "name": "权利人",
+      "value": "1",
+      "orderNum": 1,
+      "parentId": null,
+      "remark": "专利权利人或申请人"
+    },
+    {
+      "id": 1031,
+      "typeId": 103,
+      "name": "代理机构",
+      "value": "0",
+      "orderNum": 2,
+      "parentId": null,
+      "remark": "专利代理机构"
+    },
+    {
+      "id": 1040,
+      "typeId": 104,
+      "name": "文字商标",
+      "value": "0",
+      "orderNum": 1,
+      "parentId": null,
+      "remark": "由文字构成的商标"
+    },
+    {
+      "id": 1041,
+      "typeId": 104,
+      "name": "图形商标",
+      "value": "1",
+      "orderNum": 2,
+      "parentId": null,
+      "remark": "由图形构成的商标"
+    },
+    {
+      "id": 1042,
+      "typeId": 104,
+      "name": "组合商标",
+      "value": "2",
+      "orderNum": 3,
+      "parentId": null,
+      "remark": "由文字、图形等要素组合构成的商标"
+    },
+    {
+      "id": 1050,
+      "typeId": 105,
+      "name": "申请中",
+      "value": "0",
+      "orderNum": 1,
+      "parentId": null,
+      "remark": "商标申请已提交，正在审查中"
+    },
+    {
+      "id": 1051,
+      "typeId": 105,
+      "name": "已注册",
+      "value": "1",
+      "orderNum": 2,
+      "parentId": null,
+      "remark": "商标已成功注册"
+    },
+    {
+      "id": 1052,
+      "typeId": 105,
+      "name": "已驳回",
+      "value": "2",
+      "orderNum": 3,
+      "parentId": null,
+      "remark": "商标申请被驳回"
+    },
+    {
+      "id": 1053,
+      "typeId": 105,
+      "name": "已失效",
+      "value": "3",
+      "orderNum": 4,
+      "parentId": null,
+      "remark": "商标权已失效或过期"
+    },
+    {
+      "id": 1060,
+      "typeId": 106,
+      "name": "软件著作权",
+      "value": "0",
+      "orderNum": 1,
+      "parentId": null,
+      "remark": "计算机软件著作权"
+    },
+    {
+      "id": 1061,
+      "typeId": 106,
+      "name": "作品著作权",
+      "value": "1",
+      "orderNum": 2,
+      "parentId": null,
+      "remark": "文学、艺术和科学作品的著作权"
+    },
+    {
+      "id": 1070,
+      "typeId": 107,
+      "name": "申请中",
+      "value": "0",
+      "orderNum": 1,
+      "parentId": null,
+      "remark": "著作权申请已提交，正在审查中"
+    },
+    {
+      "id": 1071,
+      "typeId": 107,
+      "name": "已登记",
+      "value": "1",
+      "orderNum": 2,
+      "parentId": null,
+      "remark": "著作权已成功登记"
+    },
+    {
+      "id": 1072,
+      "typeId": 107,
+      "name": "已驳回",
+      "value": "2",
+      "orderNum": 3,
+      "parentId": null,
+      "remark": "著作权申请被驳回"
+    },
+    {
+      "id": 1073,
+      "typeId": 107,
+      "name": "已失效",
+      "value": "3",
+      "orderNum": 4,
+      "parentId": null,
+      "remark": "著作权已失效或过期"
+    },
+    {
+      "id": 1080,
+      "typeId": 108,
+      "name": "应用软件",
+      "value": "0",
+      "orderNum": 1,
+      "parentId": null,
+      "remark": "应用软件类别"
+    },
+    {
+      "id": 1081,
+      "typeId": 108,
+      "name": "系统软件",
+      "value": "1",
+      "orderNum": 2,
+      "parentId": null,
+      "remark": "系统软件类别"
+    },
+    {
+      "id": 1082,
+      "typeId": 108,
+      "name": "支撑软件",
+      "value": "2",
+      "orderNum": 3,
+      "parentId": null,
+      "remark": "支撑软件类别"
+    },
+    {
+      "id": 1083,
+      "typeId": 108,
+      "name": "嵌入式软件",
+      "value": "3",
+      "orderNum": 4,
+      "parentId": null,
+      "remark": "嵌入式软件类别"
+    },
+    {
+      "id": 1090,
+      "typeId": 109,
+      "name": "独立开发",
+      "value": "0",
+      "orderNum": 1,
+      "parentId": null,
+      "remark": "独立开发方式"
+    },
+    {
+      "id": 1091,
+      "typeId": 109,
+      "name": "合作开发",
+      "value": "1",
+      "orderNum": 2,
+      "parentId": null,
+      "remark": "合作开发方式"
+    },
+    {
+      "id": 1092,
+      "typeId": 109,
+      "name": "委托开发",
+      "value": "2",
+      "orderNum": 3,
+      "parentId": null,
+      "remark": "委托开发方式"
+    },
+    {
+      "id": 1093,
+      "typeId": 109,
+      "name": "下达任务开发",
+      "value": "3",
+      "orderNum": 4,
+      "parentId": null,
+      "remark": "下达任务开发方式"
+    },
+    {
+      "id": 1100,
+      "typeId": 110,
+      "name": "原始取得",
+      "value": "0",
+      "orderNum": 1,
+      "parentId": null,
+      "remark": "原始取得方式"
+    },
+    {
+      "id": 1101,
+      "typeId": 110,
+      "name": "继受取得",
+      "value": "1",
+      "orderNum": 2,
+      "parentId": null,
+      "remark": "继受取得方式"
+    },
+    {
+      "id": 1110,
+      "typeId": 111,
+      "name": "全部权利",
+      "value": "0",
+      "orderNum": 1,
+      "parentId": null,
+      "remark": "全部权利范围"
+    },
+    {
+      "id": 1111,
+      "typeId": 111,
+      "name": "部分权利",
+      "value": "1",
+      "orderNum": 2,
+      "parentId": null,
+      "remark": "部分权利范围"
+    },
+    {
+      "id": 1120,
+      "typeId": 112,
+      "name": "申请中",
+      "value": "0",
+      "orderNum": 1,
+      "parentId": null,
+      "remark": "软件著作权申请中"
+    },
+    {
+      "id": 1121,
+      "typeId": 112,
+      "name": "已登记",
+      "value": "1",
+      "orderNum": 2,
+      "parentId": null,
+      "remark": "软件著作权已登记"
+    },
+    {
+      "id": 1122,
+      "typeId": 112,
+      "name": "已驳回",
+      "value": "2",
+      "orderNum": 3,
+      "parentId": null,
+      "remark": "软件著作权申请被驳回"
+    },
+    {
+      "id": 1123,
+      "typeId": 112,
+      "name": "已失效",
+      "value": "3",
+      "orderNum": 4,
+      "parentId": null,
+      "remark": "软件著作权已失效"
+    },
+    {
+      "id": 1130,
+      "typeId": 113,
+      "name": "电子发文",
+      "value": "0",
+      "orderNum": 1,
+      "parentId": null,
+      "remark": "电子形式的文档"
+    },
+    {
+      "id": 1131,
+      "typeId": 113,
+      "name": "纸质发文",
+      "value": "1",
+      "orderNum": 2,
+      "parentId": null,
+      "remark": "纸质形式的文档"
+    },
+    {
+      "id": 1140,
+      "typeId": 114,
+      "name": "版权登记表",
+      "value": "0",
+      "orderNum": 1,
+      "parentId": null,
+      "remark": "软件著作权登记表"
+    },
+    {
+      "id": 1141,
+      "typeId": 114,
+      "name": "版权证书",
+      "value": "1",
+      "orderNum": 2,
+      "parentId": null,
+      "remark": "软件著作权证书"
+    },
+    {
+      "id": 1142,
+      "typeId": 114,
+      "name": "补正通知",
+      "value": "2",
+      "orderNum": 3,
+      "parentId": null,
+      "remark": "软件著作权补正通知书"
+    },
+    {
+      "id": 1150,
+      "typeId": 115,
+      "name": "申请文件",
+      "value": "0",
+      "orderNum": 1,
+      "parentId": null,
+      "remark": "专利申请相关文件"
+    },
+    {
+      "id": 1151,
+      "typeId": 115,
+      "name": "授权文件",
+      "value": "1",
+      "orderNum": 2,
+      "parentId": null,
+      "remark": "专利授权相关文件"
+    },
+    {
+      "id": 1152,
+      "typeId": 115,
+      "name": "缴费文件",
+      "value": "2",
+      "orderNum": 3,
+      "parentId": null,
+      "remark": "专利缴费相关文件"
+    },
+    {
+      "id": 1153,
+      "typeId": 115,
+      "name": "其他文件",
+      "value": "3",
+      "orderNum": 4,
+      "parentId": null,
+      "remark": "其他专利相关文件"
+    },
+    {
+      "id": 1160,
+      "typeId": 116,
+      "name": "申请文件",
+      "value": "0",
+      "orderNum": 1,
+      "parentId": null,
+      "remark": "商标申请相关文件"
+    },
+    {
+      "id": 1161,
+      "typeId": 116,
+      "name": "注册文件",
+      "value": "1",
+      "orderNum": 2,
+      "parentId": null,
+      "remark": "商标注册相关文件"
+    },
+    {
+      "id": 1162,
+      "typeId": 116,
+      "name": "续展文件",
+      "value": "2",
+      "orderNum": 3,
+      "parentId": null,
+      "remark": "商标续展相关文件"
+    },
+    {
+      "id": 1163,
+      "typeId": 116,
+      "name": "其他文件",
+      "value": "3",
+      "orderNum": 4,
+      "parentId": null,
+      "remark": "其他商标相关文件"
+    }
+  ]
+}
