@@ -19,6 +19,6 @@ export class IntellectualTrademarkDocumentEntity extends BaseEntity {
   @Column({ comment: '日期', type: 'date', nullable: true })
   date: Date;
 
-  @Column({ comment: '附件', length: 255, nullable: true })
+  @Column({ comment: '附件', length: 255 })
   attachment: string;
 }

@@ -36,8 +36,17 @@ export class IntellectualTrademarkEntity extends BaseEntity {
   @Column({ comment: '申请日', type: 'date', nullable: true })
   applicationDate: Date;
 
-  @Column({ comment: '服务内容', type: 'text', nullable: true })
-  serviceContent: string;
+  @Column({ comment: '注册生效日', type: 'date', nullable: true })
+  registrationEffectiveDate: Date;
+
+  @Column({ comment: '申请服务内容', type: 'text', nullable: true })
+  applicationServiceContent: string;
+
+  @Column({ comment: '核定使用商品/服务项目', type: 'text', nullable: true })
+  approvedGoodsServices: string;
+
+  @Column({ comment: '有效期', type: 'date', nullable: true })
+  validityPeriod: Date;
 
   @Column({ comment: '代理机构', length: 255, nullable: true })
   agency: string;
