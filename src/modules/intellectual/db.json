@@ -99,6 +99,11 @@
       "id": 119,
       "name": "商标分类号",
       "key": "intellectual_trademark_classification"
+    },
+    {
+      "id": 120,
+      "name": "商标文档名称",
+      "key": "intellectual_trademark_document_name"
     }
   ],
   "dict_info": [
@@ -1433,6 +1438,150 @@
       "orderNum": 45,
       "parentId": null,
       "remark": "法律服务；由他人提供的为满足个人需要的私人和社会服务；为保护财产和人身安全的服务"
+    },
+    {
+      "id": 1260,
+      "typeId": 120,
+      "name": "商标注册证书",
+      "value": "0",
+      "orderNum": 1,
+      "parentId": null,
+      "remark": "商标注册证书"
+    },
+    {
+      "id": 1261,
+      "typeId": 120,
+      "name": "申请缴收费",
+      "value": "1",
+      "orderNum": 2,
+      "parentId": null,
+      "remark": "申请缴收费通知"
+    },
+    {
+      "id": 1262,
+      "typeId": 120,
+      "name": "初步审定公告通知书",
+      "value": "2",
+      "orderNum": 3,
+      "parentId": null,
+      "remark": "初步审定公告通知书"
+    },
+    {
+      "id": 1263,
+      "typeId": 120,
+      "name": "异议缴收费",
+      "value": "3",
+      "orderNum": 4,
+      "parentId": null,
+      "remark": "异议缴收费通知"
+    },
+    {
+      "id": 1264,
+      "typeId": 120,
+      "name": "商标准予注册决定",
+      "value": "4",
+      "orderNum": 5,
+      "parentId": null,
+      "remark": "商标准予注册决定书"
+    },
+    {
+      "id": 1265,
+      "typeId": 120,
+      "name": "商标转让上申请注册商标申请",
+      "value": "5",
+      "orderNum": 6,
+      "parentId": null,
+      "remark": "商标转让上申请注册商标申请"
+    },
+    {
+      "id": 1266,
+      "typeId": 120,
+      "name": "商标评审申请受理通知书",
+      "value": "6",
+      "orderNum": 7,
+      "parentId": null,
+      "remark": "商标评审申请受理通知书"
+    },
+    {
+      "id": 1267,
+      "typeId": 120,
+      "name": "商标转让申请补正通知书",
+      "value": "7",
+      "orderNum": 8,
+      "parentId": null,
+      "remark": "商标转让申请补正通知书"
+    },
+    {
+      "id": 1268,
+      "typeId": 120,
+      "name": "驳回复审决定书",
+      "value": "8",
+      "orderNum": 9,
+      "parentId": null,
+      "remark": "驳回复审决定书"
+    },
+    {
+      "id": 1269,
+      "typeId": 120,
+      "name": "商标注册申请受理通知书",
+      "value": "9",
+      "orderNum": 10,
+      "parentId": null,
+      "remark": "商标注册申请受理通知书"
+    },
+    {
+      "id": 1270,
+      "typeId": 120,
+      "name": "商标注册申请缴费通知书",
+      "value": "10",
+      "orderNum": 11,
+      "parentId": null,
+      "remark": "商标注册申请缴费通知书"
+    },
+    {
+      "id": 1271,
+      "typeId": 120,
+      "name": "商标续展注册证明",
+      "value": "11",
+      "orderNum": 12,
+      "parentId": null,
+      "remark": "商标续展注册证明"
+    },
+    {
+      "id": 1272,
+      "typeId": 120,
+      "name": "商标注册申请补正通知书",
+      "value": "12",
+      "orderNum": 13,
+      "parentId": null,
+      "remark": "商标注册申请补正通知书"
+    },
+    {
+      "id": 1273,
+      "typeId": 120,
+      "name": "受理商标续展注册申请",
+      "value": "13",
+      "orderNum": 14,
+      "parentId": null,
+      "remark": "受理商标续展注册申请"
+    },
+    {
+      "id": 1274,
+      "typeId": 120,
+      "name": "商标驳回通知书",
+      "value": "14",
+      "orderNum": 15,
+      "parentId": null,
+      "remark": "商标驳回通知书"
+    },
+    {
+      "id": 1275,
+      "typeId": 120,
+      "name": "其它",
+      "value": "15",
+      "orderNum": 16,
+      "parentId": null,
+      "remark": "其他商标相关文档"
     }
   ]
 }
