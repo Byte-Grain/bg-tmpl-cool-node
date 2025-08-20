@@ -7,12 +7,16 @@ import { Column, Entity, Index } from 'typeorm';
 @Entity('intellectual_organization')
 export class IntellectualOrganizationEntity extends BaseEntity {
   @Index()
+  @Column({ comment: '编号', length: 100, nullable: true })
+  code: string;
+
+  @Index()
   @Column({ comment: '名称', length: 255 })
   name: string;
 
   @Column({
     comment: '类型',
-    dict: ['企业', '高校', '科研机构', '其他'],
+    dict: ['代理机构', '权利人'],
     default: 0,
   })
   type: number;

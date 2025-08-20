@@ -24,6 +24,9 @@ export class IntellectualPatentEntity extends BaseEntity {
   @Column({ comment: '证书日', type: 'date', nullable: true })
   certificateDate: Date;
 
+  @Column({ comment: '证书号', length: 255, nullable: true })
+  certificateNumber: string;
+
   @Column({ comment: '专利权利人', length: 255, nullable: true })
   patentee: string;
 
@@ -34,7 +37,11 @@ export class IntellectualPatentEntity extends BaseEntity {
   })
   patentType: number;
 
-  @Column({ comment: '法律状态', dict: ['有效', '无效', '审中'], default: 0 })
+  @Column({
+    comment: '法律状态',
+    dict: ['待申请', '审查中', '已授权', '已驳回', '已失效', '待诉讼', '驳回复审'],
+    default: 0,
+  })
   legalStatus: number;
 
   @Column({ comment: '发明人', length: 255, nullable: true })
@@ -46,6 +53,17 @@ export class IntellectualPatentEntity extends BaseEntity {
   @Column({ comment: '授权公告号', length: 255, nullable: true })
   authorizationAnnouncementNumber: string;
 
-  @Column({ comment: '专利级别', length: 255, nullable: true })
-  patentLevel: string;
+  @Column({
+    comment: '专利级别',
+    dict: ['壁垒专利', '重要专利', '普通专利'],
+    default: 2,
+    nullable: true,
+  })
+  patentLevel: number;
+
+  @Column({ comment: '权力要求', type: 'text', nullable: true })
+  claimsRequirement: string;
+
+  @Column({ comment: '备注', type: 'text', nullable: true })
+  remark: string;
 }

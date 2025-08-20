@@ -11,7 +11,7 @@ import { IntellectualOrganizationService } from '../../service/organization';
   entity: IntellectualOrganizationEntity,
   service: IntellectualOrganizationService,
   pageQueryOp: {
-    keyWordLikeFields: ['a.name'],
+    keyWordLikeFields: ['a.code', 'a.name'],
     fieldEq: ['a.type'],
   },
 })
