@@ -11,7 +11,8 @@ import { IntellectualSoftCopyrightDocumentService } from '../../service/softCopy
   entity: IntellectualSoftCopyrightDocumentEntity,
   service: IntellectualSoftCopyrightDocumentService,
   pageQueryOp: {
-    keyWordLikeFields: ['a.serialNumber', 'a.name'],
+    keyWordLikeFields: ['a.serialNumber', 'a.softCopyrightName'],
+    fieldEq: ['a.type', 'a.name', 'a.legalStatus'],
   },
 })
 export class AdminIntellectualSoftCopyrightDocumentController extends BaseController {}

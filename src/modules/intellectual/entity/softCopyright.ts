@@ -57,6 +57,6 @@ export class IntellectualSoftCopyrightEntity extends BaseEntity {
   @Column({ comment: '申请人', length: 255 })
   applicant: string;
 
-  @Column({ comment: '法律状态', dict: ['有效', '无效', '审中'], default: 0 })
+  @Column({ comment: '法律状态', dict: ['未进行', '待提交', '待受理', '受理', '审查', '登记', '转让', '许可使用'], default: 0 })
   legalStatus: number;
 }

@@ -11,7 +11,7 @@ import { IntellectualSoftCopyrightService } from '../../service/softCopyright';
   entity: IntellectualSoftCopyrightEntity,
   service: IntellectualSoftCopyrightService,
   pageQueryOp: {
-    keyWordLikeFields: ['a.name', 'a.registrationNumber'],
+    keyWordLikeFields: ['a.name', 'a.registrationNumber', 'a.serialNumber'],
     fieldEq: ['a.category', 'a.legalStatus'],
   },
 })
