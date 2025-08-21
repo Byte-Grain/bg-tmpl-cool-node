@@ -16,7 +16,7 @@ export class IntellectualSoftCopyrightDocumentEntity extends BaseEntity {
   @Column({ comment: '法律状态', dict: ['未进行', '待提交', '待受理', '受理', '审查', '登记', '转让', '许可使用'], default: 0, nullable: true })
   legalStatus: number;
 
-  @Column({ comment: '类型', dict: ['电子发文', '纸质发文'], default: 0, nullable: true })
+  @Column({ comment: '类型', dict: 'intellectual_document_type', default: 0, nullable: true })
   type: number;
 
   @Column({ comment: '名称', dict: ['版权登记表', '版权证书', '补正通知'], default: 0 })

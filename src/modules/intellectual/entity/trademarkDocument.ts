@@ -10,8 +10,8 @@ export class IntellectualTrademarkDocumentEntity extends BaseEntity {
   @Column({ comment: '注册号', length: 255 })
   registrationNumber: string;
 
-  @Column({ comment: '类型', length: 255, nullable: true })
-  type: string;
+  @Column({ comment: '类型', dict: 'intellectual_document_type', default: 0, nullable: true })
+  type: number;
 
   @Column({ comment: '名称', length: 255 })
   name: string;
