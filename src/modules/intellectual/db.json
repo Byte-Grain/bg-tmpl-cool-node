@@ -5,7 +5,6 @@
       "name": "专利类型",
       "key": "intellectual_patent_type"
     },
-
     {
       "id": 102,
       "name": "专利级别",
@@ -21,17 +20,12 @@
       "name": "商标类型",
       "key": "intellectual_trademark_type"
     },
-
     {
       "id": 106,
       "name": "版权类型",
       "key": "intellectual_copyright_type"
     },
-    {
-      "id": 107,
-      "name": "版权状态",
-      "key": "intellectual_copyright_status"
-    },
+
     {
       "id": 108,
       "name": "软件分类",
@@ -52,10 +46,9 @@
       "name": "权利范围",
       "key": "intellectual_scope_of_right"
     },
-
     {
       "id": 113,
-      "name": "统一文档类型",
+      "name": "文档类型",
       "key": "intellectual_document_type"
     },
     {
@@ -191,7 +184,6 @@
       "parentId": null,
       "remark": "由文字、图形等要素组合构成的商标"
     },
-
     {
       "id": 1060,
       "typeId": 106,
@@ -210,42 +202,7 @@
       "parentId": null,
       "remark": "文学、艺术和科学作品的著作权"
     },
-    {
-      "id": 1070,
-      "typeId": 107,
-      "name": "申请中",
-      "value": "0",
-      "orderNum": 1,
-      "parentId": null,
-      "remark": "著作权申请已提交，正在审查中"
-    },
-    {
-      "id": 1071,
-      "typeId": 107,
-      "name": "已登记",
-      "value": "1",
-      "orderNum": 2,
-      "parentId": null,
-      "remark": "著作权已成功登记"
-    },
-    {
-      "id": 1072,
-      "typeId": 107,
-      "name": "已驳回",
-      "value": "2",
-      "orderNum": 3,
-      "parentId": null,
-      "remark": "著作权申请被驳回"
-    },
-    {
-      "id": 1073,
-      "typeId": 107,
-      "name": "已失效",
-      "value": "3",
-      "orderNum": 4,
-      "parentId": null,
-      "remark": "著作权已失效或过期"
-    },
+
     {
       "id": 1080,
       "typeId": 108,
@@ -473,7 +430,7 @@
       "remark": "其他相关文件"
     },
     {
-      "id": 1140,
+      "id": 1143,
       "typeId": 114,
       "name": "版权登记表",
       "value": "0",
@@ -482,7 +439,7 @@
       "remark": "软件著作权登记表"
     },
     {
-      "id": 1141,
+      "id": 1144,
       "typeId": 114,
       "name": "版权证书",
       "value": "1",
@@ -491,7 +448,7 @@
       "remark": "软件著作权证书"
     },
     {
-      "id": 1142,
+      "id": 1145,
       "typeId": 114,
       "name": "补正通知",
       "value": "2",
@@ -499,7 +456,6 @@
       "parentId": null,
       "remark": "软件著作权补正通知书"
     },
-
     {
       "id": 1170,
       "typeId": 117,
