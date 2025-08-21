@@ -18,7 +18,7 @@
         "perms": null,
         "type": 0,
         "icon": "icon-auth",
-        "orderNum": 0,
+        "orderNum": 10,
         "viewPath": null,
         "keepAlive": true,
         "isShow": true,
@@ -216,7 +216,7 @@
         "perms": null,
         "type": 0,
         "icon": "icon-approve",
-        "orderNum": 0,
+        "orderNum": 30,
         "viewPath": null,
         "keepAlive": true,
         "isShow": true,
@@ -414,7 +414,7 @@
         "perms": null,
         "type": 0,
         "icon": "icon-card",
-        "orderNum": 0,
+        "orderNum": 20,
         "viewPath": null,
         "keepAlive": true,
         "isShow": true,
@@ -612,7 +612,7 @@
         "perms": null,
         "type": 0,
         "icon": "icon-menu",
-        "orderNum": 0,
+        "orderNum": 99,
         "viewPath": null,
         "keepAlive": true,
         "isShow": true,
@@ -710,6 +710,19 @@
             ]
           }
         ]
+      },
+      {
+        "tenantId": null,
+        "name": "看板",
+        "router": "/intellectual/dashboard",
+        "perms": null,
+        "type": 1,
+        "icon": "icon-rank",
+        "orderNum": 0,
+        "viewPath": "modules/intellectual/views/dashboard.vue",
+        "keepAlive": true,
+        "isShow": true,
+        "childMenus": []
       }
     ]
   }
