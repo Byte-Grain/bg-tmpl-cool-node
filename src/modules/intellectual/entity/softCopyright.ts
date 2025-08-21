@@ -45,18 +45,42 @@ export class IntellectualSoftCopyrightEntity extends BaseEntity {
   @Column({ comment: '申请日', type: 'date', nullable: true })
   applicationDate: Date;
 
-  @Column({ comment: '取得方式', length: 255, nullable: true })
-  acquisitionMethod: string;
+  @Column({ comment: '证书日', type: 'date', nullable: true })
+  certificateDate: Date;
+
+  @Column({
+    comment: '取得方式',
+    dict: ['原始取得', '继受取得'],
+    default: 0,
+  })
+  acquisitionMethod: number;
 
   @Column({ comment: '权利人', length: 255, nullable: true })
   rightHolder: string;
 
-  @Column({ comment: '权利范围', length: 255, nullable: true })
-  scopeOfRight: string;
+  @Column({
+    comment: '权利范围',
+    dict: ['全部权利', '部分权利'],
+    default: 0,
+  })
+  scopeOfRight: number;
 
   @Column({ comment: '申请人', length: 255, nullable: true })
   applicant: string;
 
-  @Column({ comment: '法律状态', dict: ['未进行', '待提交', '待受理', '受理', '审查', '登记', '转让', '许可使用'], default: 0 })
+  @Column({
+    comment: '法律状态',
+    dict: [
+      '未进行',
+      '待提交',
+      '待受理',
+      '受理',
+      '审查',
+      '登记',
+      '转让',
+      '许可使用',
+    ],
+    default: 0,
+  })
   legalStatus: number;
 }

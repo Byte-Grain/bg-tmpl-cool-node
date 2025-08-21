@@ -398,29 +398,29 @@
     {
       "id": 1081,
       "typeId": 108,
-      "name": "系统软件",
+      "name": "嵌入式软件",
       "value": "1",
       "orderNum": 2,
       "parentId": null,
-      "remark": "系统软件类别"
+      "remark": "嵌入式软件类别"
     },
     {
       "id": 1082,
       "typeId": 108,
-      "name": "支撑软件",
+      "name": "支撑件",
       "value": "2",
       "orderNum": 3,
       "parentId": null,
-      "remark": "支撑软件类别"
+      "remark": "中间件类别"
     },
     {
       "id": 1083,
       "typeId": 108,
-      "name": "嵌入式软件",
+      "name": "操作系统",
       "value": "3",
       "orderNum": 4,
       "parentId": null,
-      "remark": "嵌入式软件类别"
+      "remark": "操作系统类别"
     },
     {
       "id": 1090,
