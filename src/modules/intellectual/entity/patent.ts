@@ -39,7 +39,7 @@ export class IntellectualPatentEntity extends BaseEntity {
 
   @Column({
     comment: '法律状态',
-    dict: 'intellectual_unified_legal_status',
+    dict: 'intellectual_legal_status',
     default: 0,
   })
   legalStatus: number;

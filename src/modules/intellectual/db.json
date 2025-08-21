@@ -86,8 +86,8 @@
     },
     {
       "id": 121,
-      "name": "统一法律状态",
-      "key": "intellectual_unified_legal_status"
+      "name": "法律状态",
+      "key": "intellectual_legal_status"
     }
   ],
   "dict_info": [
@@ -499,7 +499,6 @@
       "parentId": null,
       "remark": "软件著作权补正通知书"
     },
-
 
     {
       "id": 1170,
