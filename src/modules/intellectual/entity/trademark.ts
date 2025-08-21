@@ -51,6 +51,10 @@ export class IntellectualTrademarkEntity extends BaseEntity {
   @Column({ comment: '代理机构', length: 255, nullable: true })
   agency: string;
 
-  @Column({ comment: '法律状态', dict: ['有效', '无效', '审中'], default: 0 })
+  @Column({
+    comment: '法律状态',
+    dict: 'intellectual_unified_legal_status',
+    default: 0,
+  })
   legalStatus: number;
 }

@@ -5,11 +5,7 @@
       "name": "专利类型",
       "key": "intellectual_patent_type"
     },
-    {
-      "id": 101,
-      "name": "法律状态",
-      "key": "intellectual_legal_status"
-    },
+
     {
       "id": 102,
       "name": "专利级别",
@@ -25,11 +21,7 @@
       "name": "商标类型",
       "key": "intellectual_trademark_type"
     },
-    {
-      "id": 105,
-      "name": "商标状态",
-      "key": "intellectual_trademark_status"
-    },
+
     {
       "id": 106,
       "name": "版权类型",
@@ -60,11 +52,7 @@
       "name": "权利范围",
       "key": "intellectual_scope_of_right"
     },
-    {
-      "id": 112,
-      "name": "软件法律状态",
-      "key": "intellectual_software_legal_status"
-    },
+
     {
       "id": 113,
       "name": "文档类型",
@@ -104,6 +92,11 @@
       "id": 120,
       "name": "商标文档名称",
       "key": "intellectual_trademark_document_name"
+    },
+    {
+      "id": 121,
+      "name": "统一法律状态",
+      "key": "intellectual_unified_legal_status"
     }
   ],
   "dict_info": [
@@ -134,69 +127,7 @@
       "parentId": null,
       "remark": "外观设计专利是对产品的形状、图案或者其结合以及色彩与形状、图案的结合所作出的富有美感并适于工业应用的新设计"
     },
-    {
-      "id": 1010,
-      "typeId": 101,
-      "name": "待申请",
-      "value": "0",
-      "orderNum": 1,
-      "parentId": null,
-      "remark": "专利申请尚未提交"
-    },
-    {
-      "id": 1011,
-      "typeId": 101,
-      "name": "审查中",
-      "value": "1",
-      "orderNum": 2,
-      "parentId": null,
-      "remark": "专利申请已提交，正在审查过程中"
-    },
-    {
-      "id": 1012,
-      "typeId": 101,
-      "name": "已授权",
-      "value": "2",
-      "orderNum": 3,
-      "parentId": null,
-      "remark": "专利申请已通过审查并获得授权"
-    },
-    {
-      "id": 1013,
-      "typeId": 101,
-      "name": "已驳回",
-      "value": "3",
-      "orderNum": 4,
-      "parentId": null,
-      "remark": "专利申请被驳回"
-    },
-    {
-      "id": 1014,
-      "typeId": 101,
-      "name": "已失效",
-      "value": "4",
-      "orderNum": 5,
-      "parentId": null,
-      "remark": "专利权已失效或过期"
-    },
-    {
-      "id": 1015,
-      "typeId": 101,
-      "name": "待诉讼",
-      "value": "5",
-      "orderNum": 6,
-      "parentId": null,
-      "remark": "专利涉及诉讼程序"
-    },
-    {
-      "id": 1016,
-      "typeId": 101,
-      "name": "驳回复审",
-      "value": "6",
-      "orderNum": 7,
-      "parentId": null,
-      "remark": "专利申请驳回后进入复审程序"
-    },
+
     {
       "id": 1020,
       "typeId": 102,
@@ -269,69 +200,7 @@
       "parentId": null,
       "remark": "由文字、图形等要素组合构成的商标"
     },
-    {
-      "id": 1050,
-      "typeId": 105,
-      "name": "商标审查",
-      "value": "0",
-      "orderNum": 1,
-      "parentId": null,
-      "remark": "商标申请正在审查中"
-    },
-    {
-      "id": 1051,
-      "typeId": 105,
-      "name": "公告",
-      "value": "1",
-      "orderNum": 2,
-      "parentId": null,
-      "remark": "商标进入公告期"
-    },
-    {
-      "id": 1052,
-      "typeId": 105,
-      "name": "注册",
-      "value": "2",
-      "orderNum": 3,
-      "parentId": null,
-      "remark": "商标已成功注册"
-    },
-    {
-      "id": 1053,
-      "typeId": 105,
-      "name": "转让",
-      "value": "3",
-      "orderNum": 4,
-      "parentId": null,
-      "remark": "商标权已转让"
-    },
-    {
-      "id": 1054,
-      "typeId": 105,
-      "name": "使用许可",
-      "value": "4",
-      "orderNum": 5,
-      "parentId": null,
-      "remark": "商标使用许可"
-    },
-    {
-      "id": 1055,
-      "typeId": 105,
-      "name": "续展生效",
-      "value": "5",
-      "orderNum": 6,
-      "parentId": null,
-      "remark": "商标续展已生效"
-    },
-    {
-      "id": 1056,
-      "typeId": 105,
-      "name": "商标注销",
-      "value": "6",
-      "orderNum": 7,
-      "parentId": null,
-      "remark": "商标已注销"
-    },
+
     {
       "id": 1060,
       "typeId": 106,
@@ -494,42 +363,7 @@
       "parentId": null,
       "remark": "部分权利范围"
     },
-    {
-      "id": 1120,
-      "typeId": 112,
-      "name": "申请中",
-      "value": "0",
-      "orderNum": 1,
-      "parentId": null,
-      "remark": "软件著作权申请中"
-    },
-    {
-      "id": 1121,
-      "typeId": 112,
-      "name": "已登记",
-      "value": "1",
-      "orderNum": 2,
-      "parentId": null,
-      "remark": "软件著作权已登记"
-    },
-    {
-      "id": 1122,
-      "typeId": 112,
-      "name": "已驳回",
-      "value": "2",
-      "orderNum": 3,
-      "parentId": null,
-      "remark": "软件著作权申请被驳回"
-    },
-    {
-      "id": 1123,
-      "typeId": 112,
-      "name": "已失效",
-      "value": "3",
-      "orderNum": 4,
-      "parentId": null,
-      "remark": "软件著作权已失效"
-    },
+
     {
       "id": 1130,
       "typeId": 113,
@@ -1582,6 +1416,87 @@
       "orderNum": 16,
       "parentId": null,
       "remark": "其他商标相关文档"
+    },
+    {
+      "id": 1276,
+      "typeId": 121,
+      "name": "未申请",
+      "value": "0",
+      "orderNum": 1,
+      "parentId": null,
+      "remark": "尚未开始申请流程"
+    },
+    {
+      "id": 1277,
+      "typeId": 121,
+      "name": "准备材料",
+      "value": "1",
+      "orderNum": 2,
+      "parentId": null,
+      "remark": "正在准备申请材料"
+    },
+    {
+      "id": 1278,
+      "typeId": 121,
+      "name": "待受理",
+      "value": "2",
+      "orderNum": 3,
+      "parentId": null,
+      "remark": "材料已提交，等待受理"
+    },
+    {
+      "id": 1279,
+      "typeId": 121,
+      "name": "已受理",
+      "value": "3",
+      "orderNum": 4,
+      "parentId": null,
+      "remark": "申请已被受理"
+    },
+    {
+      "id": 1280,
+      "typeId": 121,
+      "name": "审核中",
+      "value": "4",
+      "orderNum": 5,
+      "parentId": null,
+      "remark": "正在审核过程中"
+    },
+    {
+      "id": 1281,
+      "typeId": 121,
+      "name": "已登记",
+      "value": "5",
+      "orderNum": 6,
+      "parentId": null,
+      "remark": "已完成登记/注册/授权"
+    },
+    {
+      "id": 1282,
+      "typeId": 121,
+      "name": "再审",
+      "value": "6",
+      "orderNum": 7,
+      "parentId": null,
+      "remark": "进入再审/复审程序"
+    },
+    {
+      "id": 1283,
+      "typeId": 121,
+      "name": "已驳回",
+      "value": "7",
+      "orderNum": 8,
+      "parentId": null,
+      "remark": "申请被驳回"
+    },
+    {
+      "id": 1284,
+      "typeId": 121,
+      "name": "已失效",
+      "value": "8",
+      "orderNum": 9,
+      "parentId": null,
+      "remark": "权利已失效或过期"
     }
   ]
 }

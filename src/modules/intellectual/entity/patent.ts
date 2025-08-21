@@ -39,7 +39,7 @@ export class IntellectualPatentEntity extends BaseEntity {
 
   @Column({
     comment: '法律状态',
-    dict: ['待申请', '审查中', '已授权', '已驳回', '已失效', '待诉讼', '驳回复审'],
+    dict: 'intellectual_unified_legal_status',
     default: 0,
   })
   legalStatus: number;

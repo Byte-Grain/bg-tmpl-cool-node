@@ -70,16 +70,7 @@ export class IntellectualSoftCopyrightEntity extends BaseEntity {
 
   @Column({
     comment: '法律状态',
-    dict: [
-      '未进行',
-      '待提交',
-      '待受理',
-      '受理',
-      '审查',
-      '登记',
-      '转让',
-      '许可使用',
-    ],
+    dict: 'intellectual_unified_legal_status',
     default: 0,
   })
   legalStatus: number;
