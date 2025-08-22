@@ -91,7 +91,9 @@
       "value": "0",
       "orderNum": 1,
       "parentId": null,
-      "remark": "发明专利是对产品、方法或者其改进所提出的新的技术方案"
+      "remark": "发明专利是对产品、方法或者其改进所提出的新的技术方案",
+      "type": "primary",
+      "color": "#409EFF"
     },
     {
       "id": 1001,
@@ -100,7 +102,9 @@
       "value": "1",
       "orderNum": 2,
       "parentId": null,
-      "remark": "实用新型专利是对产品的形状、构造或者其结合所提出的适于实用的新的技术方案"
+      "remark": "实用新型专利是对产品的形状、构造或者其结合所提出的适于实用的新的技术方案",
+      "type": "success",
+      "color": "#67C23A"
     },
     {
       "id": 1002,
@@ -109,7 +113,9 @@
       "value": "2",
       "orderNum": 3,
       "parentId": null,
-      "remark": "外观设计专利是对产品的形状、图案或者其结合以及色彩与形状、图案的结合所作出的富有美感并适于工业应用的新设计"
+      "remark": "外观设计专利是对产品的形状、图案或者其结合以及色彩与形状、图案的结合所作出的富有美感并适于工业应用的新设计",
+      "type": "warning",
+      "color": "#E6A23C"
     },
 
     {
@@ -119,7 +125,9 @@
       "value": "0",
       "orderNum": 1,
       "parentId": null,
-      "remark": "具有重要战略价值的核心专利，能够形成技术壁垒"
+      "remark": "具有重要战略价值的核心专利，能够形成技术壁垒",
+      "type": "danger",
+      "color": "#F56C6C"
     },
     {
       "id": 1021,
@@ -128,7 +136,9 @@
       "value": "1",
       "orderNum": 2,
       "parentId": null,
-      "remark": "具有较高商业价值的重要专利"
+      "remark": "具有较高商业价值的重要专利",
+      "type": "warning",
+      "color": "#E6A23C"
     },
     {
       "id": 1022,
@@ -137,7 +147,9 @@
       "value": "2",
       "orderNum": 3,
       "parentId": null,
-      "remark": "一般性的专利申请"
+      "remark": "一般性的专利申请",
+      "type": "info",
+      "color": "#909399"
     },
     {
       "id": 1030,
@@ -1399,7 +1411,9 @@
       "value": "0",
       "orderNum": 1,
       "parentId": null,
-      "remark": "尚未开始申请流程"
+      "remark": "尚未开始申请流程",
+      "type": "info",
+      "color": "#909399"
     },
     {
       "id": 1277,
@@ -1408,7 +1422,9 @@
       "value": "1",
       "orderNum": 2,
       "parentId": null,
-      "remark": "正在准备申请材料"
+      "remark": "正在准备申请材料",
+      "type": "warning",
+      "color": "#E6A23C"
     },
     {
       "id": 1278,
@@ -1417,7 +1433,9 @@
       "value": "2",
       "orderNum": 3,
       "parentId": null,
-      "remark": "材料已提交，等待受理"
+      "remark": "材料已提交，等待受理",
+      "type": "warning",
+      "color": "#E6A23C"
     },
     {
       "id": 1279,
@@ -1426,7 +1444,9 @@
       "value": "3",
       "orderNum": 4,
       "parentId": null,
-      "remark": "申请已被受理"
+      "remark": "申请已被受理",
+      "type": "primary",
+      "color": "#409EFF"
     },
     {
       "id": 1280,
@@ -1435,7 +1455,9 @@
       "value": "4",
       "orderNum": 5,
       "parentId": null,
-      "remark": "正在审核过程中"
+      "remark": "正在审核过程中",
+      "type": "primary",
+      "color": "#409EFF"
     },
     {
       "id": 1281,
@@ -1444,7 +1466,9 @@
       "value": "5",
       "orderNum": 6,
       "parentId": null,
-      "remark": "已完成登记/注册/授权"
+      "remark": "已完成登记/注册/授权",
+      "type": "success",
+      "color": "#67C23A"
     },
     {
       "id": 1282,
@@ -1453,7 +1477,9 @@
       "value": "6",
       "orderNum": 7,
       "parentId": null,
-      "remark": "进入再审/复审程序"
+      "remark": "进入再审/复审程序",
+      "type": "warning",
+      "color": "#E6A23C"
     },
     {
       "id": 1283,
@@ -1462,7 +1488,9 @@
       "value": "7",
       "orderNum": 8,
       "parentId": null,
-      "remark": "申请被驳回"
+      "remark": "申请被驳回",
+      "type": "danger",
+      "color": "#F56C6C"
     },
     {
       "id": 1284,
@@ -1471,7 +1499,9 @@
       "value": "8",
       "orderNum": 9,
       "parentId": null,
-      "remark": "权利已失效或过期"
+      "remark": "权利已失效或过期",
+      "type": "danger",
+      "color": "#F56C6C"
     }
   ]
 }
