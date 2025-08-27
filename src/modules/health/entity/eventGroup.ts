@@ -11,4 +11,7 @@ export class HealthEventGroupEntity extends BaseEntity {
 
   @Column({ comment: '备注', type: 'text', nullable: true })
   remark: string;
+
+  @Column({ comment: '排序', default: 0 })
+  orderNum: number;
 }

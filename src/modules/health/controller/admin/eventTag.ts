@@ -11,6 +11,13 @@ import { HealthEventGroupEntity } from '../../entity/eventGroup';
   api: ['add', 'delete', 'update', 'info', 'list', 'page'],
   entity: HealthEventTagEntity,
   service: HealthEventTagService,
+  listQueryOp: {
+    fieldEq: ['groupId'],
+    keyWordLikeFields: ['name'],
+    addOrderBy: {
+      createTime: 'ASC',
+    },
+  },
   pageQueryOp: {
     keyWordLikeFields: ['a.name'],
     select: ['a.*', 'b.name AS groupName'],
