@@ -51,10 +51,11 @@ export const pPluginPath = () => {
 };
 
 /**
- * sqlite 数据库文件
+ * sqlite 数据库文件,可指定数据库文件名
  */
-export const pSqlitePath = () => {
-  return path.join(pDataPath(), 'cool.sqlite');
+export const pSqlitePath = (name: string = 'cool') => {
+  name = name || 'cool';
+  return path.join(pDataPath(), `${name}.sqlite`);
 };
 
 /**
