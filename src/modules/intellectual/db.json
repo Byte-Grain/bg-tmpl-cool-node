@@ -3,1505 +3,1580 @@
     {
       "id": 100,
       "name": "专利类型",
-      "key": "intellectual_patent_type"
+      "key": "intellectual_patent_type",
+      "@childDatas": {
+        "dict_info": [
+          {
+            "id": 1000,
+            "typeId": "@id",
+            "name": "发明专利",
+            "value": "0",
+            "orderNum": 1,
+            "parentId": null,
+            "remark": "发明专利是对产品、方法或者其改进所提出的新的技术方案",
+            "type": "primary",
+            "color": "#409EFF"
+          },
+          {
+            "id": 1001,
+            "typeId": "@id",
+            "name": "实用新型专利",
+            "value": "1",
+            "orderNum": 2,
+            "parentId": null,
+            "remark": "实用新型专利是对产品的形状、构造或者其结合所提出的适于实用的新的技术方案",
+            "type": "success",
+            "color": "#67C23A"
+          },
+          {
+            "id": 1002,
+            "typeId": "@id",
+            "name": "外观设计专利",
+            "value": "2",
+            "orderNum": 3,
+            "parentId": null,
+            "remark": "外观设计专利是对产品的形状、图案或者其结合以及色彩与形状、图案的结合所作出的富有美感并适于工业应用的新设计",
+            "type": "warning",
+            "color": "#E6A23C"
+          }
+        ]
+      }
     },
     {
       "id": 102,
       "name": "专利级别",
-      "key": "intellectual_patent_level"
+      "key": "intellectual_patent_level",
+      "@childDatas": {
+        "dict_info": [
+          {
+            "id": 1020,
+            "typeId": "@id",
+            "name": "壁垒专利",
+            "value": "0",
+            "orderNum": 1,
+            "parentId": null,
+            "remark": "具有重要战略价值的核心专利，能够形成技术壁垒",
+            "type": "danger",
+            "color": "#F56C6C"
+          },
+          {
+            "id": 1021,
+            "typeId": "@id",
+            "name": "重要专利",
+            "value": "1",
+            "orderNum": 2,
+            "parentId": null,
+            "remark": "具有较高商业价值的重要专利",
+            "type": "warning",
+            "color": "#E6A23C"
+          },
+          {
+            "id": 1022,
+            "typeId": "@id",
+            "name": "普通专利",
+            "value": "2",
+            "orderNum": 3,
+            "parentId": null,
+            "remark": "一般性的专利申请",
+            "type": "info",
+            "color": "#909399"
+          }
+        ]
+      }
     },
     {
       "id": 103,
       "name": "机构类型",
-      "key": "intellectual_organization_type"
+      "key": "intellectual_organization_type",
+      "@childDatas": {
+        "dict_info": [
+          {
+            "id": 1030,
+            "typeId": "@id",
+            "name": "权利人",
+            "value": "1",
+            "orderNum": 1,
+            "parentId": null,
+            "remark": "专利权利人或申请人"
+          },
+          {
+            "id": 1031,
+            "typeId": "@id",
+            "name": "代理机构",
+            "value": "0",
+            "orderNum": 2,
+            "parentId": null,
+            "remark": "专利代理机构"
+          }
+        ]
+      }
     },
     {
       "id": 104,
       "name": "商标类型",
-      "key": "intellectual_trademark_type"
+      "key": "intellectual_trademark_type",
+      "@childDatas": {
+        "dict_info": [
+          {
+            "id": 1040,
+            "typeId": "@id",
+            "name": "文字商标",
+            "value": "0",
+            "orderNum": 1,
+            "parentId": null,
+            "remark": "由文字构成的商标"
+          },
+          {
+            "id": 1041,
+            "typeId": "@id",
+            "name": "图形商标",
+            "value": "1",
+            "orderNum": 2,
+            "parentId": null,
+            "remark": "由图形构成的商标"
+          },
+          {
+            "id": 1042,
+            "typeId": "@id",
+            "name": "组合商标",
+            "value": "2",
+            "orderNum": 3,
+            "parentId": null,
+            "remark": "由文字、图形等要素组合构成的商标"
+          }
+        ]
+      }
     },
     {
       "id": 106,
       "name": "版权类型",
-      "key": "intellectual_copyright_type"
+      "key": "intellectual_copyright_type",
+      "@childDatas": {
+        "dict_info": [
+          {
+            "id": 1060,
+            "typeId": "@id",
+            "name": "软件著作权",
+            "value": "0",
+            "orderNum": 1,
+            "parentId": null,
+            "remark": "计算机软件著作权"
+          },
+          {
+            "id": 1061,
+            "typeId": "@id",
+            "name": "作品著作权",
+            "value": "1",
+            "orderNum": 2,
+            "parentId": null,
+            "remark": "文学、艺术和科学作品的著作权"
+          }
+        ]
+      }
     },
-
     {
       "id": 108,
       "name": "软件分类",
-      "key": "intellectual_software_category"
+      "key": "intellectual_software_category",
+      "@childDatas": {
+        "dict_info": [
+          {
+            "id": 1080,
+            "typeId": "@id",
+            "name": "应用软件",
+            "value": "0",
+            "orderNum": 1,
+            "parentId": null,
+            "remark": "应用软件类别"
+          },
+          {
+            "id": 1081,
+            "typeId": "@id",
+            "name": "嵌入式软件",
+            "value": "1",
+            "orderNum": 2,
+            "parentId": null,
+            "remark": "嵌入式软件类别"
+          },
+          {
+            "id": 1082,
+            "typeId": "@id",
+            "name": "中间件",
+            "value": "2",
+            "orderNum": 3,
+            "parentId": null,
+            "remark": "中间件类别"
+          },
+          {
+            "id": 1083,
+            "typeId": "@id",
+            "name": "操作系统",
+            "value": "3",
+            "orderNum": 4,
+            "parentId": null,
+            "remark": "操作系统类别"
+          }
+        ]
+      }
     },
     {
       "id": 109,
       "name": "开发方式",
-      "key": "intellectual_development_method"
+      "key": "intellectual_development_method",
+      "@childDatas": {
+        "dict_info": [
+          {
+            "id": 1090,
+            "typeId": "@id",
+            "name": "独立开发",
+            "value": "0",
+            "orderNum": 1,
+            "parentId": null,
+            "remark": "独立开发方式"
+          },
+          {
+            "id": 1091,
+            "typeId": "@id",
+            "name": "合作开发",
+            "value": "1",
+            "orderNum": 2,
+            "parentId": null,
+            "remark": "合作开发方式"
+          },
+          {
+            "id": 1092,
+            "typeId": "@id",
+            "name": "委托开发",
+            "value": "2",
+            "orderNum": 3,
+            "parentId": null,
+            "remark": "委托开发方式"
+          },
+          {
+            "id": 1093,
+            "typeId": "@id",
+            "name": "下达任务开发",
+            "value": "3",
+            "orderNum": 4,
+            "parentId": null,
+            "remark": "下达任务开发方式"
+          }
+        ]
+      }
     },
     {
       "id": 110,
       "name": "取得方式",
-      "key": "intellectual_acquisition_method"
+      "key": "intellectual_acquisition_method",
+      "@childDatas": {
+        "dict_info": [
+          {
+            "id": 1100,
+            "typeId": "@id",
+            "name": "原始取得",
+            "value": "0",
+            "orderNum": 1,
+            "parentId": null,
+            "remark": "原始取得方式"
+          },
+          {
+            "id": 1101,
+            "typeId": "@id",
+            "name": "继受取得",
+            "value": "1",
+            "orderNum": 2,
+            "parentId": null,
+            "remark": "继受取得方式"
+          }
+        ]
+      }
     },
     {
       "id": 111,
       "name": "权利范围",
-      "key": "intellectual_scope_of_right"
+      "key": "intellectual_scope_of_right",
+      "@childDatas": {
+        "dict_info": [
+          {
+            "id": 1110,
+            "typeId": "@id",
+            "name": "全部权利",
+            "value": "0",
+            "orderNum": 1,
+            "parentId": null,
+            "remark": "全部权利范围"
+          },
+          {
+            "id": 1111,
+            "typeId": "@id",
+            "name": "部分权利",
+            "value": "1",
+            "orderNum": 2,
+            "parentId": null,
+            "remark": "部分权利范围"
+          }
+        ]
+      }
     },
     {
       "id": 113,
       "name": "文档类型",
-      "key": "intellectual_document_type"
+      "key": "intellectual_document_type",
+      "@childDatas": {
+        "dict_info": [
+          {
+            "id": 1130,
+            "typeId": "@id",
+            "name": "申请文件",
+            "value": "0",
+            "orderNum": 1,
+            "parentId": null,
+            "remark": "申请相关文件"
+          },
+          {
+            "id": 1131,
+            "typeId": "@id",
+            "name": "授权文件",
+            "value": "1",
+            "orderNum": 2,
+            "parentId": null,
+            "remark": "授权相关文件"
+          },
+          {
+            "id": 1132,
+            "typeId": "@id",
+            "name": "注册文件",
+            "value": "2",
+            "orderNum": 3,
+            "parentId": null,
+            "remark": "注册相关文件"
+          },
+          {
+            "id": 1133,
+            "typeId": "@id",
+            "name": "续展文件",
+            "value": "3",
+            "orderNum": 4,
+            "parentId": null,
+            "remark": "续展相关文件"
+          },
+          {
+            "id": 1134,
+            "typeId": "@id",
+            "name": "缴费文件",
+            "value": "4",
+            "orderNum": 5,
+            "parentId": null,
+            "remark": "缴费相关文件"
+          },
+          {
+            "id": 1135,
+            "typeId": "@id",
+            "name": "版权登记表",
+            "value": "5",
+            "orderNum": 6,
+            "parentId": null,
+            "remark": "软件著作权登记表"
+          },
+          {
+            "id": 1136,
+            "typeId": "@id",
+            "name": "版权证书",
+            "value": "6",
+            "orderNum": 7,
+            "parentId": null,
+            "remark": "软件著作权证书"
+          },
+          {
+            "id": 1137,
+            "typeId": "@id",
+            "name": "补正通知",
+            "value": "7",
+            "orderNum": 8,
+            "parentId": null,
+            "remark": "补正通知书"
+          },
+          {
+            "id": 1138,
+            "typeId": "@id",
+            "name": "受理通知书",
+            "value": "8",
+            "orderNum": 9,
+            "parentId": null,
+            "remark": "申请受理通知书"
+          },
+          {
+            "id": 1139,
+            "typeId": "@id",
+            "name": "费减通知书",
+            "value": "9",
+            "orderNum": 10,
+            "parentId": null,
+            "remark": "费用减缓通知书"
+          },
+          {
+            "id": 1140,
+            "typeId": "@id",
+            "name": "电子发文",
+            "value": "10",
+            "orderNum": 11,
+            "parentId": null,
+            "remark": "电子形式的文档"
+          },
+          {
+            "id": 1141,
+            "typeId": "@id",
+            "name": "纸质发文",
+            "value": "11",
+            "orderNum": 12,
+            "parentId": null,
+            "remark": "纸质形式的文档"
+          },
+          {
+            "id": 1142,
+            "typeId": "@id",
+            "name": "其他文件",
+            "value": "12",
+            "orderNum": 13,
+            "parentId": null,
+            "remark": "其他相关文件"
+          }
+        ]
+      }
     },
     {
       "id": 114,
       "name": "软著文档名称",
-      "key": "intellectual_soft_copyright_document_name"
+      "key": "intellectual_soft_copyright_document_name",
+      "@childDatas": {
+        "dict_info": [
+          {
+            "id": 1143,
+            "typeId": "@id",
+            "name": "版权登记表",
+            "value": "0",
+            "orderNum": 1,
+            "parentId": null,
+            "remark": "软件著作权登记表"
+          },
+          {
+            "id": 1144,
+            "typeId": "@id",
+            "name": "版权证书",
+            "value": "1",
+            "orderNum": 2,
+            "parentId": null,
+            "remark": "软件著作权证书"
+          },
+          {
+            "id": 1145,
+            "typeId": "@id",
+            "name": "补正通知",
+            "value": "2",
+            "orderNum": 3,
+            "parentId": null,
+            "remark": "软件著作权补正通知书"
+          }
+        ]
+      }
     },
-
     {
       "id": 117,
       "name": "专利文档名称",
-      "key": "intellectual_patent_document_name"
+      "key": "intellectual_patent_document_name",
+      "@childDatas": {
+        "dict_info": [
+          {
+            "id": 1170,
+            "typeId": "@id",
+            "name": "受理通知书",
+            "value": "0",
+            "orderNum": 1,
+            "parentId": null,
+            "remark": "专利申请受理通知书"
+          },
+          {
+            "id": 1171,
+            "typeId": "@id",
+            "name": "费减通知书",
+            "value": "1",
+            "orderNum": 2,
+            "parentId": null,
+            "remark": "专利费用减缓通知书"
+          },
+          {
+            "id": 1172,
+            "typeId": "@id",
+            "name": "专利证书",
+            "value": "2",
+            "orderNum": 3,
+            "parentId": null,
+            "remark": "专利权证书"
+          },
+          {
+            "id": 1173,
+            "typeId": "@id",
+            "name": "著录变更手续合格通知书",
+            "value": "3",
+            "orderNum": 4,
+            "parentId": null,
+            "remark": "专利著录变更手续合格通知书"
+          },
+          {
+            "id": 1174,
+            "typeId": "@id",
+            "name": "第一次审查意见",
+            "value": "4",
+            "orderNum": 5,
+            "parentId": null,
+            "remark": "专利第一次审查意见通知书"
+          },
+          {
+            "id": 1175,
+            "typeId": "@id",
+            "name": "第二次审查意见",
+            "value": "5",
+            "orderNum": 6,
+            "parentId": null,
+            "remark": "专利第二次审查意见通知书"
+          },
+          {
+            "id": 1176,
+            "typeId": "@id",
+            "name": "第三次审查意见",
+            "value": "6",
+            "orderNum": 7,
+            "parentId": null,
+            "remark": "专利第三次审查意见通知书"
+          },
+          {
+            "id": 1177,
+            "typeId": "@id",
+            "name": "第四次审查意见",
+            "value": "7",
+            "orderNum": 8,
+            "parentId": null,
+            "remark": "专利第四次审查意见通知书"
+          },
+          {
+            "id": 1178,
+            "typeId": "@id",
+            "name": "授权通知书",
+            "value": "8",
+            "orderNum": 9,
+            "parentId": null,
+            "remark": "专利授权通知书"
+          },
+          {
+            "id": 1179,
+            "typeId": "@id",
+            "name": "办理登记手续通知书",
+            "value": "9",
+            "orderNum": 10,
+            "parentId": null,
+            "remark": "专利办理登记手续通知书"
+          },
+          {
+            "id": 1180,
+            "typeId": "@id",
+            "name": "补正通知书",
+            "value": "10",
+            "orderNum": 11,
+            "parentId": null,
+            "remark": "专利申请补正通知书"
+          },
+          {
+            "id": 1181,
+            "typeId": "@id",
+            "name": "专利权终止通知书",
+            "value": "11",
+            "orderNum": 12,
+            "parentId": null,
+            "remark": "专利权终止通知书"
+          },
+          {
+            "id": 1182,
+            "typeId": "@id",
+            "name": "电子申请注册来申请批通知书",
+            "value": "12",
+            "orderNum": 13,
+            "parentId": null,
+            "remark": "电子申请注册来申请批通知书"
+          },
+          {
+            "id": 1183,
+            "typeId": "@id",
+            "name": "缴费通知书",
+            "value": "13",
+            "orderNum": 14,
+            "parentId": null,
+            "remark": "专利缴费通知书"
+          },
+          {
+            "id": 1184,
+            "typeId": "@id",
+            "name": "专利申请停止优先审查通知书",
+            "value": "14",
+            "orderNum": 15,
+            "parentId": null,
+            "remark": "专利申请停止优先审查通知书"
+          },
+          {
+            "id": 1185,
+            "typeId": "@id",
+            "name": "非正常初步确认意见通知书（申请人）",
+            "value": "15",
+            "orderNum": 16,
+            "parentId": null,
+            "remark": "非正常初步确认意见通知书（申请人）"
+          },
+          {
+            "id": 1186,
+            "typeId": "@id",
+            "name": "专利收据",
+            "value": "16",
+            "orderNum": 17,
+            "parentId": null,
+            "remark": "专利相关费用收据"
+          },
+          {
+            "id": 1187,
+            "typeId": "@id",
+            "name": "驳回通知书",
+            "value": "17",
+            "orderNum": 18,
+            "parentId": null,
+            "remark": "专利申请驳回通知书"
+          },
+          {
+            "id": 1188,
+            "typeId": "@id",
+            "name": "专利权终止通知书",
+            "value": "18",
+            "orderNum": 19,
+            "parentId": null,
+            "remark": "专利权终止通知书"
+          },
+          {
+            "id": 1189,
+            "typeId": "@id",
+            "name": "退款审批通知书",
+            "value": "19",
+            "orderNum": 20,
+            "parentId": null,
+            "remark": "专利费用退款审批通知书"
+          },
+          {
+            "id": 1190,
+            "typeId": "@id",
+            "name": "专利权终止通知书",
+            "value": "20",
+            "orderNum": 21,
+            "parentId": null,
+            "remark": "专利权终止通知书"
+          },
+          {
+            "id": 1191,
+            "typeId": "@id",
+            "name": "发明专利初步审查合格通知书",
+            "value": "21",
+            "orderNum": 22,
+            "parentId": null,
+            "remark": "发明专利初步审查合格通知书"
+          },
+          {
+            "id": 1192,
+            "typeId": "@id",
+            "name": "视为放弃取得专利权通知书",
+            "value": "22",
+            "orderNum": 23,
+            "parentId": null,
+            "remark": "视为放弃取得专利权通知书"
+          },
+          {
+            "id": 1193,
+            "typeId": "@id",
+            "name": "检索报告",
+            "value": "23",
+            "orderNum": 24,
+            "parentId": null,
+            "remark": "专利检索报告"
+          },
+          {
+            "id": 1194,
+            "typeId": "@id",
+            "name": "视为撤回通知书",
+            "value": "24",
+            "orderNum": 25,
+            "parentId": null,
+            "remark": "专利申请视为撤回通知书"
+          },
+          {
+            "id": 1195,
+            "typeId": "@id",
+            "name": "视为未提出通知书",
+            "value": "25",
+            "orderNum": 26,
+            "parentId": null,
+            "remark": "专利申请视为未提出通知书"
+          },
+          {
+            "id": 1196,
+            "typeId": "@id",
+            "name": "发明专利进入实审通知书",
+            "value": "26",
+            "orderNum": 27,
+            "parentId": null,
+            "remark": "发明专利进入实质审查通知书"
+          },
+          {
+            "id": 1197,
+            "typeId": "@id",
+            "name": "复审决定书",
+            "value": "27",
+            "orderNum": 28,
+            "parentId": null,
+            "remark": "专利复审决定书"
+          },
+          {
+            "id": 1198,
+            "typeId": "@id",
+            "name": "审查业务专用函",
+            "value": "28",
+            "orderNum": 29,
+            "parentId": null,
+            "remark": "专利审查业务专用函"
+          },
+          {
+            "id": 1199,
+            "typeId": "@id",
+            "name": "发明专利申请公布通知书",
+            "value": "29",
+            "orderNum": 30,
+            "parentId": null,
+            "remark": "发明专利申请公布通知书"
+          },
+          {
+            "id": 1200,
+            "typeId": "@id",
+            "name": "办理恢复利请求批通知书",
+            "value": "30",
+            "orderNum": 31,
+            "parentId": null,
+            "remark": "办理恢复利请求批通知书"
+          },
+          {
+            "id": 1201,
+            "typeId": "@id",
+            "name": "恢复权利请求审批通知书",
+            "value": "31",
+            "orderNum": 32,
+            "parentId": null,
+            "remark": "恢复权利请求审批通知书"
+          },
+          {
+            "id": 1202,
+            "typeId": "@id",
+            "name": "登记薄副本",
+            "value": "32",
+            "orderNum": 33,
+            "parentId": null,
+            "remark": "专利登记薄副本"
+          },
+          {
+            "id": 1203,
+            "typeId": "@id",
+            "name": "手续合格通知书（同意撤回）",
+            "value": "33",
+            "orderNum": 34,
+            "parentId": null,
+            "remark": "手续合格通知书（同意撤回）"
+          },
+          {
+            "id": 1204,
+            "typeId": "@id",
+            "name": "发明专利公布公告及进入实审通知书",
+            "value": "34",
+            "orderNum": 35,
+            "parentId": null,
+            "remark": "发明专利公布公告及进入实审通知书"
+          },
+          {
+            "id": 1205,
+            "typeId": "@id",
+            "name": "证书副本",
+            "value": "35",
+            "orderNum": 36,
+            "parentId": null,
+            "remark": "专利证书副本"
+          },
+          {
+            "id": 1206,
+            "typeId": "@id",
+            "name": "专利权终止通知书",
+            "value": "36",
+            "orderNum": 37,
+            "parentId": null,
+            "remark": "专利权终止通知书"
+          },
+          {
+            "id": 1207,
+            "typeId": "@id",
+            "name": "专利申请停止优先审查通知书",
+            "value": "37",
+            "orderNum": 38,
+            "parentId": null,
+            "remark": "专利申请停止优先审查通知书"
+          },
+          {
+            "id": 1208,
+            "typeId": "@id",
+            "name": "非正常专利申请确认意见通知书",
+            "value": "38",
+            "orderNum": 39,
+            "parentId": null,
+            "remark": "非正常专利申请确认意见通知书"
+          },
+          {
+            "id": 1209,
+            "typeId": "@id",
+            "name": "其它",
+            "value": "39",
+            "orderNum": 40,
+            "parentId": null,
+            "remark": "其他专利文档"
+          }
+        ]
+      }
     },
     {
       "id": 118,
       "name": "商标来源",
-      "key": "intellectual_trademark_source"
+      "key": "intellectual_trademark_source",
+      "@childDatas": {
+        "dict_info": [
+          {
+            "id": 1210,
+            "typeId": "@id",
+            "name": "自申请",
+            "value": "0",
+            "orderNum": 1,
+            "parentId": null,
+            "remark": "自主申请的商标"
+          },
+          {
+            "id": 1211,
+            "typeId": "@id",
+            "name": "受让",
+            "value": "1",
+            "orderNum": 2,
+            "parentId": null,
+            "remark": "通过受让获得的商标"
+          },
+          {
+            "id": 1212,
+            "typeId": "@id",
+            "name": "其他",
+            "value": "2",
+            "orderNum": 3,
+            "parentId": null,
+            "remark": "其他方式获得的商标"
+          }
+        ]
+      }
     },
     {
       "id": 119,
       "name": "商标分类号",
-      "key": "intellectual_trademark_classification"
+      "key": "intellectual_trademark_classification",
+      "@childDatas": {
+        "dict_info": [
+          {
+            "id": 1213,
+            "typeId": "@id",
+            "name": "第01类-化学原料",
+            "value": "01",
+            "orderNum": 1,
+            "parentId": null,
+            "remark": "用于工业、科学、摄影、农业、园艺和林业的化学品"
+          },
+          {
+            "id": 1214,
+            "typeId": "@id",
+            "name": "第02类-涂料油漆",
+            "value": "02",
+            "orderNum": 2,
+            "parentId": null,
+            "remark": "颜料，清漆，漆"
+          },
+          {
+            "id": 1215,
+            "typeId": "@id",
+            "name": "第03类-日化用品",
+            "value": "03",
+            "orderNum": 3,
+            "parentId": null,
+            "remark": "洗衣用漂白剂及其他物料，清洁、擦亮、去渍及研磨用制剂"
+          },
+          {
+            "id": 1216,
+            "typeId": "@id",
+            "name": "第04类-燃料油脂",
+            "value": "04",
+            "orderNum": 4,
+            "parentId": null,
+            "remark": "工业用油和油脂，燃料和照明材料"
+          },
+          {
+            "id": 1217,
+            "typeId": "@id",
+            "name": "第05类-医药用品",
+            "value": "05",
+            "orderNum": 5,
+            "parentId": null,
+            "remark": "药品，医用和兽医用制剂"
+          },
+          {
+            "id": 1218,
+            "typeId": "@id",
+            "name": "第06类-五金金属",
+            "value": "06",
+            "orderNum": 6,
+            "parentId": null,
+            "remark": "普通金属及其合金"
+          },
+          {
+            "id": 1219,
+            "typeId": "@id",
+            "name": "第07类-机械设备",
+            "value": "07",
+            "orderNum": 7,
+            "parentId": null,
+            "remark": "机器和机床"
+          },
+          {
+            "id": 1220,
+            "typeId": "@id",
+            "name": "第08类-手工器械",
+            "value": "08",
+            "orderNum": 8,
+            "parentId": null,
+            "remark": "手工具和器具（手动的）"
+          },
+          {
+            "id": 1221,
+            "typeId": "@id",
+            "name": "第09类-科学仪器",
+            "value": "09",
+            "orderNum": 9,
+            "parentId": null,
+            "remark": "科学、航海、测量、摄影、电影、光学、衡具、量具、信号、检验、救护和教学用具及仪器"
+          },
+          {
+            "id": 1222,
+            "typeId": "@id",
+            "name": "第10类-医疗器械",
+            "value": "10",
+            "orderNum": 10,
+            "parentId": null,
+            "remark": "外科、医疗、牙科和兽医用仪器及器械"
+          },
+          {
+            "id": 1223,
+            "typeId": "@id",
+            "name": "第11类-灯具空调",
+            "value": "11",
+            "orderNum": 11,
+            "parentId": null,
+            "remark": "照明、加热、蒸汽发生、烹饪、冷藏、干燥、通风、供水以及卫生用装置"
+          },
+          {
+            "id": 1224,
+            "typeId": "@id",
+            "name": "第12类-运输工具",
+            "value": "12",
+            "orderNum": 12,
+            "parentId": null,
+            "remark": "运载工具；陆、空、海用运载装置"
+          },
+          {
+            "id": 1225,
+            "typeId": "@id",
+            "name": "第13类-军火烟火",
+            "value": "13",
+            "orderNum": 13,
+            "parentId": null,
+            "remark": "火器；军火及子弹；炸药；焰火"
+          },
+          {
+            "id": 1226,
+            "typeId": "@id",
+            "name": "第14类-珠宝钟表",
+            "value": "14",
+            "orderNum": 14,
+            "parentId": null,
+            "remark": "贵重金属及其合金，不属别类的贵重金属制品或镀有贵重金属的物品；珠宝，首饰，宝石；钟表和计时仪器"
+          },
+          {
+            "id": 1227,
+            "typeId": "@id",
+            "name": "第15类-乐器",
+            "value": "15",
+            "orderNum": 15,
+            "parentId": null,
+            "remark": "乐器"
+          },
+          {
+            "id": 1228,
+            "typeId": "@id",
+            "name": "第16类-办公用品",
+            "value": "16",
+            "orderNum": 16,
+            "parentId": null,
+            "remark": "纸，纸板，不属别类的纸、纸板制品；印刷品；装订用品；照片；文具用品；文具或家庭用粘合剂；美术用品；画笔；打字机和办公用品（家具除外）；教育或教学用品（仪器除外）；包装用塑料物品（不属别类的）；印刷铅字；印版"
+          },
+          {
+            "id": 1229,
+            "typeId": "@id",
+            "name": "第17类-橡胶制品",
+            "value": "17",
+            "orderNum": 17,
+            "parentId": null,
+            "remark": "橡胶、古塔胶、树胶、石棉、云母，以及不属别类的这些原材料的制品；生产用成型塑料制品；包装、填充和绝缘用材料；非金属软管"
+          },
+          {
+            "id": 1230,
+            "typeId": "@id",
+            "name": "第18类-皮革皮具",
+            "value": "18",
+            "orderNum": 18,
+            "parentId": null,
+            "remark": "皮革及人造皮革，不属别类的皮革及人造皮革制品；毛皮；箱子及旅行袋；雨伞、阳伞及手杖；鞭和马具"
+          },
+          {
+            "id": 1231,
+            "typeId": "@id",
+            "name": "第19类-建筑材料",
+            "value": "19",
+            "orderNum": 19,
+            "parentId": null,
+            "remark": "非金属的建筑材料，建筑用非金属刚性管；沥青，柏油，沥青制成品；可移动非金属建筑物；非金属碑"
+          },
+          {
+            "id": 1232,
+            "typeId": "@id",
+            "name": "第20类-家具",
+            "value": "20",
+            "orderNum": 20,
+            "parentId": null,
+            "remark": "家具，镜子，相框，不属别类的木、软木、苇、藤、柳条、角、骨、象牙、鲸骨、贝壳、琥珀、珍珠母、海泡石制品，这些材料的代用品或塑料制品"
+          },
+          {
+            "id": 1233,
+            "typeId": "@id",
+            "name": "第21类-厨房洁具",
+            "value": "21",
+            "orderNum": 21,
+            "parentId": null,
+            "remark": "家用或厨房用具及容器（非贵重金属所制，也非镀有贵重金属的），梳子及海绵，刷子（画笔除外），制刷材料，清洁用具，钢丝绒，未加工或半加工玻璃（建筑用玻璃除外），不属别类的玻璃器皿、瓷器及陶器"
+          },
+          {
+            "id": 1234,
+            "typeId": "@id",
+            "name": "第22类-绳网袋篷",
+            "value": "22",
+            "orderNum": 22,
+            "parentId": null,
+            "remark": "缆，绳，网，遮篷，帐篷，防水遮布，帆，袋（不属别类的），衬垫及填充料（橡胶或塑料除外），纺织用纤维原料"
+          },
+          {
+            "id": 1235,
+            "typeId": "@id",
+            "name": "第23类-纱线丝",
+            "value": "23",
+            "orderNum": 23,
+            "parentId": null,
+            "remark": "纺织用纱、线"
+          },
+          {
+            "id": 1236,
+            "typeId": "@id",
+            "name": "第24类-布料床单",
+            "value": "24",
+            "orderNum": 24,
+            "parentId": null,
+            "remark": "纺织品及纺织品替代品；家庭日用纺织品；纺织品制或塑料制窗帘"
+          },
+          {
+            "id": 1237,
+            "typeId": "@id",
+            "name": "第25类-服装鞋帽",
+            "value": "25",
+            "orderNum": 25,
+            "parentId": null,
+            "remark": "服装，鞋，帽"
+          },
+          {
+            "id": 1238,
+            "typeId": "@id",
+            "name": "第26类-纽扣拉链",
+            "value": "26",
+            "orderNum": 26,
+            "parentId": null,
+            "remark": "花边及刺绣，饰带及编带；纽扣，领钩扣，饰针及缝针；假花"
+          },
+          {
+            "id": 1239,
+            "typeId": "@id",
+            "name": "第27类-地毯席垫",
+            "value": "27",
+            "orderNum": 27,
+            "parentId": null,
+            "remark": "地毯，地席，席垫，油毡及其他铺地板用品；非纺织品墙帷"
+          },
+          {
+            "id": 1240,
+            "typeId": "@id",
+            "name": "第28类-健身器材",
+            "value": "28",
+            "orderNum": 28,
+            "parentId": null,
+            "remark": "游戏器具及玩具；不属别类的体育及运动用品；圣诞树用装饰品"
+          },
+          {
+            "id": 1241,
+            "typeId": "@id",
+            "name": "第29类-食品",
+            "value": "29",
+            "orderNum": 29,
+            "parentId": null,
+            "remark": "肉，鱼，家禽及野味，肉汁，腌渍、冷冻、干制及煮熟的水果和蔬菜，果冻，果酱，蜜饯，蛋，奶及乳制品，食用油和油脂"
+          },
+          {
+            "id": 1242,
+            "typeId": "@id",
+            "name": "第30类-方便食品",
+            "value": "30",
+            "orderNum": 30,
+            "parentId": null,
+            "remark": "咖啡，茶，可可，糖，米，食用淀粉，西米，咖啡代用品，面粉及谷类制品，面包，糕点及糖果，冰制食品，蜂蜜，糖浆，鲜酵母，发酵粉，食盐，芥末，醋，沙司（调料），香料，饮用冰"
+          },
+          {
+            "id": 1243,
+            "typeId": "@id",
+            "name": "第31类-饲料种籽",
+            "value": "31",
+            "orderNum": 31,
+            "parentId": null,
+            "remark": "农业、园艺、林业产品及不属别类的谷物，活动物，新鲜水果和蔬菜，种籽，草木及花卉，动物饲料，麦芽"
+          },
+          {
+            "id": 1244,
+            "typeId": "@id",
+            "name": "第32类-啤酒饮料",
+            "value": "32",
+            "orderNum": 32,
+            "parentId": null,
+            "remark": "啤酒，矿泉水和汽水以及其他不含酒精的饮料，水果饮料及果汁，糖浆及其他供饮料用的制剂"
+          },
+          {
+            "id": 1245,
+            "typeId": "@id",
+            "name": "第33类-酒",
+            "value": "33",
+            "orderNum": 33,
+            "parentId": null,
+            "remark": "含酒精的饮料（啤酒除外）"
+          },
+          {
+            "id": 1246,
+            "typeId": "@id",
+            "name": "第34类-烟草烟具",
+            "value": "34",
+            "orderNum": 34,
+            "parentId": null,
+            "remark": "烟草，烟具，火柴"
+          },
+          {
+            "id": 1247,
+            "typeId": "@id",
+            "name": "第35类-广告销售",
+            "value": "35",
+            "orderNum": 35,
+            "parentId": null,
+            "remark": "广告，实业经营，实业管理，办公事务"
+          },
+          {
+            "id": 1248,
+            "typeId": "@id",
+            "name": "第36类-金融物管",
+            "value": "36",
+            "orderNum": 36,
+            "parentId": null,
+            "remark": "保险，金融，货币事务，不动产事务"
+          },
+          {
+            "id": 1249,
+            "typeId": "@id",
+            "name": "第37类-建筑修理",
+            "value": "37",
+            "orderNum": 37,
+            "parentId": null,
+            "remark": "房屋建筑，修理，安装服务"
+          },
+          {
+            "id": 1250,
+            "typeId": "@id",
+            "name": "第38类-通讯服务",
+            "value": "38",
+            "orderNum": 38,
+            "parentId": null,
+            "remark": "电信"
+          },
+          {
+            "id": 1251,
+            "typeId": "@id",
+            "name": "第39类-运输贮藏",
+            "value": "39",
+            "orderNum": 39,
+            "parentId": null,
+            "remark": "运输，商品包装和贮藏，旅行安排"
+          },
+          {
+            "id": 1252,
+            "typeId": "@id",
+            "name": "第40类-材料加工",
+            "value": "40",
+            "orderNum": 40,
+            "parentId": null,
+            "remark": "材料处理"
+          },
+          {
+            "id": 1253,
+            "typeId": "@id",
+            "name": "第41类-教育娱乐",
+            "value": "41",
+            "orderNum": 41,
+            "parentId": null,
+            "remark": "教育，提供培训，娱乐，文体活动"
+          },
+          {
+            "id": 1254,
+            "typeId": "@id",
+            "name": "第42类-网站服务",
+            "value": "42",
+            "orderNum": 42,
+            "parentId": null,
+            "remark": "科学技术服务和与之相关的研究与设计服务，工业分析与研究，计算机硬件与软件的设计与开发"
+          },
+          {
+            "id": 1255,
+            "typeId": "@id",
+            "name": "第43类-餐饮住宿",
+            "value": "43",
+            "orderNum": 43,
+            "parentId": null,
+            "remark": "提供食物和饮料服务，临时住宿"
+          },
+          {
+            "id": 1256,
+            "typeId": "@id",
+            "name": "第44类-医疗园艺",
+            "value": "44",
+            "orderNum": 44,
+            "parentId": null,
+            "remark": "医疗服务，兽医服务，人或动物的卫生和美容服务，农业、园艺或林业服务"
+          },
+          {
+            "id": 1257,
+            "typeId": "@id",
+            "name": "第45类-社会服务",
+            "value": "45",
+            "orderNum": 45,
+            "parentId": null,
+            "remark": "法律服务，由他人提供的为满足个人需要的私人和社会服务，为保护财产和人身安全的服务"
+          }
+        ]
+      }
     },
     {
       "id": 120,
       "name": "商标文档名称",
-      "key": "intellectual_trademark_document_name"
-    },
-    {
-      "id": 121,
-      "name": "法律状态",
-      "key": "intellectual_legal_status"
-    }
-  ],
-  "dict_info": [
-    {
-      "id": 1000,
-      "typeId": 100,
-      "name": "发明专利",
-      "value": "0",
-      "orderNum": 1,
-      "parentId": null,
-      "remark": "发明专利是对产品、方法或者其改进所提出的新的技术方案",
-      "type": "primary",
-      "color": "#409EFF"
-    },
-    {
-      "id": 1001,
-      "typeId": 100,
-      "name": "实用新型专利",
-      "value": "1",
-      "orderNum": 2,
-      "parentId": null,
-      "remark": "实用新型专利是对产品的形状、构造或者其结合所提出的适于实用的新的技术方案",
-      "type": "success",
-      "color": "#67C23A"
-    },
-    {
-      "id": 1002,
-      "typeId": 100,
-      "name": "外观设计专利",
-      "value": "2",
-      "orderNum": 3,
-      "parentId": null,
-      "remark": "外观设计专利是对产品的形状、图案或者其结合以及色彩与形状、图案的结合所作出的富有美感并适于工业应用的新设计",
-      "type": "warning",
-      "color": "#E6A23C"
-    },
-
-    {
-      "id": 1020,
-      "typeId": 102,
-      "name": "壁垒专利",
-      "value": "0",
-      "orderNum": 1,
-      "parentId": null,
-      "remark": "具有重要战略价值的核心专利，能够形成技术壁垒",
-      "type": "danger",
-      "color": "#F56C6C"
-    },
-    {
-      "id": 1021,
-      "typeId": 102,
-      "name": "重要专利",
-      "value": "1",
-      "orderNum": 2,
-      "parentId": null,
-      "remark": "具有较高商业价值的重要专利",
-      "type": "warning",
-      "color": "#E6A23C"
-    },
-    {
-      "id": 1022,
-      "typeId": 102,
-      "name": "普通专利",
-      "value": "2",
-      "orderNum": 3,
-      "parentId": null,
-      "remark": "一般性的专利申请",
-      "type": "info",
-      "color": "#909399"
-    },
-    {
-      "id": 1030,
-      "typeId": 103,
-      "name": "权利人",
-      "value": "1",
-      "orderNum": 1,
-      "parentId": null,
-      "remark": "专利权利人或申请人"
-    },
-    {
-      "id": 1031,
-      "typeId": 103,
-      "name": "代理机构",
-      "value": "0",
-      "orderNum": 2,
-      "parentId": null,
-      "remark": "专利代理机构"
-    },
-    {
-      "id": 1040,
-      "typeId": 104,
-      "name": "文字商标",
-      "value": "0",
-      "orderNum": 1,
-      "parentId": null,
-      "remark": "由文字构成的商标"
-    },
-    {
-      "id": 1041,
-      "typeId": 104,
-      "name": "图形商标",
-      "value": "1",
-      "orderNum": 2,
-      "parentId": null,
-      "remark": "由图形构成的商标"
-    },
-    {
-      "id": 1042,
-      "typeId": 104,
-      "name": "组合商标",
-      "value": "2",
-      "orderNum": 3,
-      "parentId": null,
-      "remark": "由文字、图形等要素组合构成的商标"
-    },
-    {
-      "id": 1060,
-      "typeId": 106,
-      "name": "软件著作权",
-      "value": "0",
-      "orderNum": 1,
-      "parentId": null,
-      "remark": "计算机软件著作权"
-    },
-    {
-      "id": 1061,
-      "typeId": 106,
-      "name": "作品著作权",
-      "value": "1",
-      "orderNum": 2,
-      "parentId": null,
-      "remark": "文学、艺术和科学作品的著作权"
-    },
-
-    {
-      "id": 1080,
-      "typeId": 108,
-      "name": "应用软件",
-      "value": "0",
-      "orderNum": 1,
-      "parentId": null,
-      "remark": "应用软件类别"
-    },
-    {
-      "id": 1081,
-      "typeId": 108,
-      "name": "嵌入式软件",
-      "value": "1",
-      "orderNum": 2,
-      "parentId": null,
-      "remark": "嵌入式软件类别"
-    },
-    {
-      "id": 1082,
-      "typeId": 108,
-      "name": "中间件",
-      "value": "2",
-      "orderNum": 3,
-      "parentId": null,
-      "remark": "中间件类别"
-    },
-    {
-      "id": 1083,
-      "typeId": 108,
-      "name": "操作系统",
-      "value": "3",
-      "orderNum": 4,
-      "parentId": null,
-      "remark": "操作系统类别"
-    },
-    {
-      "id": 1090,
-      "typeId": 109,
-      "name": "独立开发",
-      "value": "0",
-      "orderNum": 1,
-      "parentId": null,
-      "remark": "独立开发方式"
-    },
-    {
-      "id": 1091,
-      "typeId": 109,
-      "name": "合作开发",
-      "value": "1",
-      "orderNum": 2,
-      "parentId": null,
-      "remark": "合作开发方式"
-    },
-    {
-      "id": 1092,
-      "typeId": 109,
-      "name": "委托开发",
-      "value": "2",
-      "orderNum": 3,
-      "parentId": null,
-      "remark": "委托开发方式"
-    },
-    {
-      "id": 1093,
-      "typeId": 109,
-      "name": "下达任务开发",
-      "value": "3",
-      "orderNum": 4,
-      "parentId": null,
-      "remark": "下达任务开发方式"
-    },
-    {
-      "id": 1100,
-      "typeId": 110,
-      "name": "原始取得",
-      "value": "0",
-      "orderNum": 1,
-      "parentId": null,
-      "remark": "原始取得方式"
-    },
-    {
-      "id": 1101,
-      "typeId": 110,
-      "name": "继受取得",
-      "value": "1",
-      "orderNum": 2,
-      "parentId": null,
-      "remark": "继受取得方式"
-    },
-    {
-      "id": 1110,
-      "typeId": 111,
-      "name": "全部权利",
-      "value": "0",
-      "orderNum": 1,
-      "parentId": null,
-      "remark": "全部权利范围"
-    },
-    {
-      "id": 1111,
-      "typeId": 111,
-      "name": "部分权利",
-      "value": "1",
-      "orderNum": 2,
-      "parentId": null,
-      "remark": "部分权利范围"
-    },
-
-    {
-      "id": 1130,
-      "typeId": 113,
-      "name": "申请文件",
-      "value": "0",
-      "orderNum": 1,
-      "parentId": null,
-      "remark": "申请相关文件"
-    },
-    {
-      "id": 1131,
-      "typeId": 113,
-      "name": "授权文件",
-      "value": "1",
-      "orderNum": 2,
-      "parentId": null,
-      "remark": "授权相关文件"
-    },
-    {
-      "id": 1132,
-      "typeId": 113,
-      "name": "注册文件",
-      "value": "2",
-      "orderNum": 3,
-      "parentId": null,
-      "remark": "注册相关文件"
-    },
-    {
-      "id": 1133,
-      "typeId": 113,
-      "name": "续展文件",
-      "value": "3",
-      "orderNum": 4,
-      "parentId": null,
-      "remark": "续展相关文件"
-    },
-    {
-      "id": 1134,
-      "typeId": 113,
-      "name": "缴费文件",
-      "value": "4",
-      "orderNum": 5,
-      "parentId": null,
-      "remark": "缴费相关文件"
-    },
-    {
-      "id": 1135,
-      "typeId": 113,
-      "name": "版权登记表",
-      "value": "5",
-      "orderNum": 6,
-      "parentId": null,
-      "remark": "软件著作权登记表"
-    },
-    {
-      "id": 1136,
-      "typeId": 113,
-      "name": "版权证书",
-      "value": "6",
-      "orderNum": 7,
-      "parentId": null,
-      "remark": "软件著作权证书"
-    },
-    {
-      "id": 1137,
-      "typeId": 113,
-      "name": "补正通知",
-      "value": "7",
-      "orderNum": 8,
-      "parentId": null,
-      "remark": "补正通知书"
-    },
-    {
-      "id": 1138,
-      "typeId": 113,
-      "name": "受理通知书",
-      "value": "8",
-      "orderNum": 9,
-      "parentId": null,
-      "remark": "申请受理通知书"
-    },
-    {
-      "id": 1139,
-      "typeId": 113,
-      "name": "费减通知书",
-      "value": "9",
-      "orderNum": 10,
-      "parentId": null,
-      "remark": "费用减缓通知书"
-    },
-    {
-      "id": 1140,
-      "typeId": 113,
-      "name": "电子发文",
-      "value": "10",
-      "orderNum": 11,
-      "parentId": null,
-      "remark": "电子形式的文档"
-    },
-    {
-      "id": 1141,
-      "typeId": 113,
-      "name": "纸质发文",
-      "value": "11",
-      "orderNum": 12,
-      "parentId": null,
-      "remark": "纸质形式的文档"
-    },
-    {
-      "id": 1142,
-      "typeId": 113,
-      "name": "其他文件",
-      "value": "12",
-      "orderNum": 13,
-      "parentId": null,
-      "remark": "其他相关文件"
-    },
-    {
-      "id": 1143,
-      "typeId": 114,
-      "name": "版权登记表",
-      "value": "0",
-      "orderNum": 1,
-      "parentId": null,
-      "remark": "软件著作权登记表"
-    },
-    {
-      "id": 1144,
-      "typeId": 114,
-      "name": "版权证书",
-      "value": "1",
-      "orderNum": 2,
-      "parentId": null,
-      "remark": "软件著作权证书"
-    },
-    {
-      "id": 1145,
-      "typeId": 114,
-      "name": "补正通知",
-      "value": "2",
-      "orderNum": 3,
-      "parentId": null,
-      "remark": "软件著作权补正通知书"
-    },
-    {
-      "id": 1170,
-      "typeId": 117,
-      "name": "受理通知书",
-      "value": "0",
-      "orderNum": 1,
-      "parentId": null,
-      "remark": "专利申请受理通知书"
-    },
-    {
-      "id": 1171,
-      "typeId": 117,
-      "name": "费减通知书",
-      "value": "1",
-      "orderNum": 2,
-      "parentId": null,
-      "remark": "专利费用减缓通知书"
-    },
-    {
-      "id": 1172,
-      "typeId": 117,
-      "name": "专利证书",
-      "value": "2",
-      "orderNum": 3,
-      "parentId": null,
-      "remark": "专利权证书"
-    },
-    {
-      "id": 1173,
-      "typeId": 117,
-      "name": "著录变更手续合格通知书",
-      "value": "3",
-      "orderNum": 4,
-      "parentId": null,
-      "remark": "专利著录变更手续合格通知书"
-    },
-    {
-      "id": 1174,
-      "typeId": 117,
-      "name": "第一次审查意见",
-      "value": "4",
-      "orderNum": 5,
-      "parentId": null,
-      "remark": "专利第一次审查意见通知书"
-    },
-    {
-      "id": 1175,
-      "typeId": 117,
-      "name": "第二次审查意见",
-      "value": "5",
-      "orderNum": 6,
-      "parentId": null,
-      "remark": "专利第二次审查意见通知书"
-    },
-    {
-      "id": 1176,
-      "typeId": 117,
-      "name": "第三次审查意见",
-      "value": "6",
-      "orderNum": 7,
-      "parentId": null,
-      "remark": "专利第三次审查意见通知书"
-    },
-    {
-      "id": 1177,
-      "typeId": 117,
-      "name": "第四次审查意见",
-      "value": "7",
-      "orderNum": 8,
-      "parentId": null,
-      "remark": "专利第四次审查意见通知书"
-    },
-    {
-      "id": 1178,
-      "typeId": 117,
-      "name": "授权通知书",
-      "value": "8",
-      "orderNum": 9,
-      "parentId": null,
-      "remark": "专利授权通知书"
-    },
-    {
-      "id": 1179,
-      "typeId": 117,
-      "name": "办理登记手续通知书",
-      "value": "9",
-      "orderNum": 10,
-      "parentId": null,
-      "remark": "专利办理登记手续通知书"
-    },
-    {
-      "id": 1180,
-      "typeId": 117,
-      "name": "补正通知书",
-      "value": "10",
-      "orderNum": 11,
-      "parentId": null,
-      "remark": "专利申请补正通知书"
-    },
-    {
-      "id": 1181,
-      "typeId": 117,
-      "name": "专利权终止通知书",
-      "value": "11",
-      "orderNum": 12,
-      "parentId": null,
-      "remark": "专利权终止通知书"
-    },
-    {
-      "id": 1182,
-      "typeId": 117,
-      "name": "电子申请注册来申请批通知书",
-      "value": "12",
-      "orderNum": 13,
-      "parentId": null,
-      "remark": "电子申请注册来申请批通知书"
-    },
-    {
-      "id": 1183,
-      "typeId": 117,
-      "name": "缴费通知书",
-      "value": "13",
-      "orderNum": 14,
-      "parentId": null,
-      "remark": "专利缴费通知书"
-    },
-    {
-      "id": 1184,
-      "typeId": 117,
-      "name": "专利申请停止优先审查通知书",
-      "value": "14",
-      "orderNum": 15,
-      "parentId": null,
-      "remark": "专利申请停止优先审查通知书"
-    },
-    {
-      "id": 1185,
-      "typeId": 117,
-      "name": "非正常初步确认意见通知书（申请人）",
-      "value": "15",
-      "orderNum": 16,
-      "parentId": null,
-      "remark": "非正常初步确认意见通知书（申请人）"
-    },
-    {
-      "id": 1186,
-      "typeId": 117,
-      "name": "专利收据",
-      "value": "16",
-      "orderNum": 17,
-      "parentId": null,
-      "remark": "专利相关费用收据"
-    },
-    {
-      "id": 1187,
-      "typeId": 117,
-      "name": "驳回通知书",
-      "value": "17",
-      "orderNum": 18,
-      "parentId": null,
-      "remark": "专利申请驳回通知书"
-    },
-    {
-      "id": 1188,
-      "typeId": 117,
-      "name": "专利权终止通知书",
-      "value": "18",
-      "orderNum": 19,
-      "parentId": null,
-      "remark": "专利权终止通知书"
-    },
-    {
-      "id": 1189,
-      "typeId": 117,
-      "name": "退款审批通知书",
-      "value": "19",
-      "orderNum": 20,
-      "parentId": null,
-      "remark": "专利费用退款审批通知书"
-    },
-    {
-      "id": 1190,
-      "typeId": 117,
-      "name": "专利权终止通知书",
-      "value": "20",
-      "orderNum": 21,
-      "parentId": null,
-      "remark": "专利权终止通知书"
-    },
-    {
-      "id": 1191,
-      "typeId": 117,
-      "name": "发明专利初步审查合格通知书",
-      "value": "21",
-      "orderNum": 22,
-      "parentId": null,
-      "remark": "发明专利初步审查合格通知书"
-    },
-    {
-      "id": 1192,
-      "typeId": 117,
-      "name": "视为放弃取得专利权通知书",
-      "value": "22",
-      "orderNum": 23,
-      "parentId": null,
-      "remark": "视为放弃取得专利权通知书"
-    },
-    {
-      "id": 1193,
-      "typeId": 117,
-      "name": "检索报告",
-      "value": "23",
-      "orderNum": 24,
-      "parentId": null,
-      "remark": "专利检索报告"
-    },
-    {
-      "id": 1194,
-      "typeId": 117,
-      "name": "视为撤回通知书",
-      "value": "24",
-      "orderNum": 25,
-      "parentId": null,
-      "remark": "专利申请视为撤回通知书"
-    },
-    {
-      "id": 1195,
-      "typeId": 117,
-      "name": "视为未提出通知书",
-      "value": "25",
-      "orderNum": 26,
-      "parentId": null,
-      "remark": "专利申请视为未提出通知书"
-    },
-    {
-      "id": 1196,
-      "typeId": 117,
-      "name": "发明专利进入实审通知书",
-      "value": "26",
-      "orderNum": 27,
-      "parentId": null,
-      "remark": "发明专利进入实质审查通知书"
-    },
-    {
-      "id": 1197,
-      "typeId": 117,
-      "name": "复审决定书",
-      "value": "27",
-      "orderNum": 28,
-      "parentId": null,
-      "remark": "专利复审决定书"
-    },
-    {
-      "id": 1198,
-      "typeId": 117,
-      "name": "审查业务专用函",
-      "value": "28",
-      "orderNum": 29,
-      "parentId": null,
-      "remark": "专利审查业务专用函"
-    },
-    {
-      "id": 1199,
-      "typeId": 117,
-      "name": "发明专利申请公布通知书",
-      "value": "29",
-      "orderNum": 30,
-      "parentId": null,
-      "remark": "发明专利申请公布通知书"
-    },
-    {
-      "id": 1200,
-      "typeId": 117,
-      "name": "办理恢复利请求批通知书",
-      "value": "30",
-      "orderNum": 31,
-      "parentId": null,
-      "remark": "办理恢复利请求批通知书"
-    },
-    {
-      "id": 1201,
-      "typeId": 117,
-      "name": "恢复权利请求审批通知书",
-      "value": "31",
-      "orderNum": 32,
-      "parentId": null,
-      "remark": "恢复权利请求审批通知书"
-    },
-    {
-      "id": 1202,
-      "typeId": 117,
-      "name": "登记薄副本",
-      "value": "32",
-      "orderNum": 33,
-      "parentId": null,
-      "remark": "专利登记薄副本"
-    },
-    {
-      "id": 1203,
-      "typeId": 117,
-      "name": "手续合格通知书（同意撤回）",
-      "value": "33",
-      "orderNum": 34,
-      "parentId": null,
-      "remark": "手续合格通知书（同意撤回）"
-    },
-    {
-      "id": 1204,
-      "typeId": 117,
-      "name": "发明专利公布公告及进入实审通知书",
-      "value": "34",
-      "orderNum": 35,
-      "parentId": null,
-      "remark": "发明专利公布公告及进入实审通知书"
-    },
-    {
-      "id": 1205,
-      "typeId": 117,
-      "name": "证书副本",
-      "value": "35",
-      "orderNum": 36,
-      "parentId": null,
-      "remark": "专利证书副本"
-    },
-    {
-      "id": 1206,
-      "typeId": 117,
-      "name": "专利权终止通知书",
-      "value": "36",
-      "orderNum": 37,
-      "parentId": null,
-      "remark": "专利权终止通知书"
-    },
-    {
-      "id": 1207,
-      "typeId": 117,
-      "name": "专利申请停止优先审查通知书",
-      "value": "37",
-      "orderNum": 38,
-      "parentId": null,
-      "remark": "专利申请停止优先审查通知书"
-    },
-    {
-      "id": 1208,
-      "typeId": 117,
-      "name": "非正常专利申请确认意见通知书",
-      "value": "38",
-      "orderNum": 39,
-      "parentId": null,
-      "remark": "非正常专利申请确认意见通知书"
-    },
-    {
-      "id": 1209,
-      "typeId": 117,
-      "name": "其它",
-      "value": "39",
-      "orderNum": 40,
-      "parentId": null,
-      "remark": "其他专利文档"
-    },
-    {
-      "id": 1210,
-      "typeId": 118,
-      "name": "自申请",
-      "value": "0",
-      "orderNum": 1,
-      "parentId": null,
-      "remark": "自主申请的商标"
-    },
-    {
-      "id": 1211,
-      "typeId": 118,
-      "name": "受让",
-      "value": "1",
-      "orderNum": 2,
-      "parentId": null,
-      "remark": "通过受让获得的商标"
-    },
-    {
-      "id": 1212,
-      "typeId": 118,
-      "name": "其他",
-      "value": "2",
-      "orderNum": 3,
-      "parentId": null,
-      "remark": "其他方式获得的商标"
-    },
-    {
-      "id": 1213,
-      "typeId": 119,
-      "name": "第01类-化学原料",
-      "value": "01",
-      "orderNum": 1,
-      "parentId": null,
-      "remark": "用于工业、科学、摄影、农业、园艺和林业的化学品"
-    },
-    {
-      "id": 1214,
-      "typeId": 119,
-      "name": "第02类-涂料油漆",
-      "value": "02",
-      "orderNum": 2,
-      "parentId": null,
-      "remark": "颜料，清漆，漆"
-    },
-    {
-      "id": 1215,
-      "typeId": 119,
-      "name": "第03类-日化用品",
-      "value": "03",
-      "orderNum": 3,
-      "parentId": null,
-      "remark": "洗衣用漂白剂及其他物料，清洁、擦亮、去渍及研磨用制剂"
-    },
-    {
-      "id": 1216,
-      "typeId": 119,
-      "name": "第04类-燃料油脂",
-      "value": "04",
-      "orderNum": 4,
-      "parentId": null,
-      "remark": "工业用油和油脂，燃料和照明材料"
-    },
-    {
-      "id": 1217,
-      "typeId": 119,
-      "name": "第05类-医药用品",
-      "value": "05",
-      "orderNum": 5,
-      "parentId": null,
-      "remark": "药品，医用和兽医用制剂"
-    },
-    {
-      "id": 1218,
-      "typeId": 119,
-      "name": "第06类-五金金属",
-      "value": "06",
-      "orderNum": 6,
-      "parentId": null,
-      "remark": "普通金属及其合金"
-    },
-    {
-      "id": 1219,
-      "typeId": 119,
-      "name": "第07类-机械设备",
-      "value": "07",
-      "orderNum": 7,
-      "parentId": null,
-      "remark": "机器和机床"
-    },
-    {
-      "id": 1220,
-      "typeId": 119,
-      "name": "第08类-手工器械",
-      "value": "08",
-      "orderNum": 8,
-      "parentId": null,
-      "remark": "手工具和器具（手动的）"
-    },
-    {
-      "id": 1221,
-      "typeId": 119,
-      "name": "第09类-科学仪器",
-      "value": "09",
-      "orderNum": 9,
-      "parentId": null,
-      "remark": "科学、航海、测量、摄影、电影、光学、衡具、量具、信号、检验（监督）、救护（营救）和教学用装置及仪器"
-    },
-    {
-      "id": 1222,
-      "typeId": 119,
-      "name": "第10类-医疗器械",
-      "value": "10",
-      "orderNum": 10,
-      "parentId": null,
-      "remark": "外科、医疗、牙科和兽医用器械及仪器"
-    },
-    {
-      "id": 1223,
-      "typeId": 119,
-      "name": "第11类-灯具空调",
-      "value": "11",
-      "orderNum": 11,
-      "parentId": null,
-      "remark": "照明、加热、蒸汽发生、烹饪、冷藏、干燥、通风、供水以及卫生用装置"
-    },
-    {
-      "id": 1224,
-      "typeId": 119,
-      "name": "第12类-运输工具",
-      "value": "12",
-      "orderNum": 12,
-      "parentId": null,
-      "remark": "运载工具"
-    },
-    {
-      "id": 1225,
-      "typeId": 119,
-      "name": "第13类-军火烟火",
-      "value": "13",
-      "orderNum": 13,
-      "parentId": null,
-      "remark": "火器；军火及子弹；爆炸物；焰火"
-    },
-    {
-      "id": 1226,
-      "typeId": 119,
-      "name": "第14类-珠宝钟表",
-      "value": "14",
-      "orderNum": 14,
-      "parentId": null,
-      "remark": "贵重金属及其合金，不属别类的贵重金属制品或镀有贵重金属的物品；珠宝，首饰，宝石；钟表和计时仪器"
-    },
-    {
-      "id": 1227,
-      "typeId": 119,
-      "name": "第15类-音乐器材",
-      "value": "15",
-      "orderNum": 15,
-      "parentId": null,
-      "remark": "乐器"
-    },
-    {
-      "id": 1228,
-      "typeId": 119,
-      "name": "第16类-办公用品",
-      "value": "16",
-      "orderNum": 16,
-      "parentId": null,
-      "remark": "纸，纸板及不属别类的纸、纸板制品；印刷品；装订用品；照片；文具用品；文具或家庭用粘合剂；美术用品；画笔；打字机和办公用品（家具除外）；教育或教学用品（仪器除外）；包装用塑料物品（不属别类的）；印刷铅字；印版"
-    },
-    {
-      "id": 1229,
-      "typeId": 119,
-      "name": "第17类-橡胶制品",
-      "value": "17",
-      "orderNum": 17,
-      "parentId": null,
-      "remark": "橡胶、古塔胶、树胶、石棉、云母以及不属别类的这些原材料的制品；生产用成型塑料制品；包装、填充和绝缘用材料；非金属软管"
-    },
-    {
-      "id": 1230,
-      "typeId": 119,
-      "name": "第18类-皮革皮具",
-      "value": "18",
-      "orderNum": 18,
-      "parentId": null,
-      "remark": "皮革及人造皮革，不属别类的皮革及人造皮革制品；毛皮；箱子及旅行袋；雨伞、阳伞及手杖；鞭和马具"
-    },
-    {
-      "id": 1231,
-      "typeId": 119,
-      "name": "第19类-建筑材料",
-      "value": "19",
-      "orderNum": 19,
-      "parentId": null,
-      "remark": "非金属的建筑材料；建筑用非金属硬管；沥青、柏油；可移动非金属建筑物；非金属碑"
-    },
-    {
-      "id": 1232,
-      "typeId": 119,
-      "name": "第20类-家具用品",
-      "value": "20",
-      "orderNum": 20,
-      "parentId": null,
-      "remark": "家具，镜子，相框；不属别类的木、软木、苇、藤、柳条、角、骨、象牙、鲸骨、贝壳、琥珀、珍珠母、海泡石制品，这些材料的代用品或塑料制品"
-    },
-    {
-      "id": 1233,
-      "typeId": 119,
-      "name": "第21类-厨房洁具",
-      "value": "21",
-      "orderNum": 21,
-      "parentId": null,
-      "remark": "家用或厨房用器具及容器（非贵重金属所制，也非镀有贵重金属的）；梳子及海绵；刷子（画笔除外）；制刷材料；清洁用具；钢丝绒；未加工或半加工玻璃（建筑用玻璃除外）；不属别类的玻璃器皿、瓷器及陶器"
-    },
-    {
-      "id": 1234,
-      "typeId": 119,
-      "name": "第22类-绳网袋篷",
-      "value": "22",
-      "orderNum": 22,
-      "parentId": null,
-      "remark": "缆，绳，网，遮篷，帐篷，防水遮布，帆，袋（不属别类的）；衬垫及填充料（橡胶或塑料除外）；纺织用纤维原料"
-    },
-    {
-      "id": 1235,
-      "typeId": 119,
-      "name": "第23类-纺织纱线",
-      "value": "23",
-      "orderNum": 23,
-      "parentId": null,
-      "remark": "纺织用纱、线"
-    },
-    {
-      "id": 1236,
-      "typeId": 119,
-      "name": "第24类-布料床单",
-      "value": "24",
-      "orderNum": 24,
-      "parentId": null,
-      "remark": "布料及不属别类的纺织品；床单和桌布"
-    },
-    {
-      "id": 1237,
-      "typeId": 119,
-      "name": "第25类-服装鞋帽",
-      "value": "25",
-      "orderNum": 25,
-      "parentId": null,
-      "remark": "服装，鞋，帽"
-    },
-    {
-      "id": 1238,
-      "typeId": 119,
-      "name": "第26类-纽扣拉链",
-      "value": "26",
-      "orderNum": 26,
-      "parentId": null,
-      "remark": "花边及刺绣，饰带及编带；纽扣，领钩扣，饰针及缝针；假花"
-    },
-    {
-      "id": 1239,
-      "typeId": 119,
-      "name": "第27类-地毯席垫",
-      "value": "27",
-      "orderNum": 27,
-      "parentId": null,
-      "remark": "地毯，地席，席垫，油毡及其他铺地板用品；非纺织品墙帷"
-    },
-    {
-      "id": 1240,
-      "typeId": 119,
-      "name": "第28类-健身器材",
-      "value": "28",
-      "orderNum": 28,
-      "parentId": null,
-      "remark": "游戏器具及玩具；不属别类的体育及运动用品；圣诞树用装饰品"
-    },
-    {
-      "id": 1241,
-      "typeId": 119,
-      "name": "第29类-肉食蛋奶",
-      "value": "29",
-      "orderNum": 29,
-      "parentId": null,
-      "remark": "肉，鱼，家禽及野味；肉汁；腌渍、干制及煮熟的水果和蔬菜；果冻，果酱，果泥；蛋，奶及乳制品；食用油和油脂"
-    },
-    {
-      "id": 1242,
-      "typeId": 119,
-      "name": "第30类-方便食品",
-      "value": "30",
-      "orderNum": 30,
-      "parentId": null,
-      "remark": "咖啡，茶，可可，糖，米，食用淀粉，西米，咖啡代用品；面粉及谷类制品，面包，糕点及糖果，冰制食品；蜂蜜，糖浆；鲜酵母，发酵粉；食盐，芥末；醋，沙司（调料）；辛香料；饮用冰"
-    },
-    {
-      "id": 1243,
-      "typeId": 119,
-      "name": "第31类-饲料种籽",
-      "value": "31",
-      "orderNum": 31,
-      "parentId": null,
-      "remark": "农业、园艺、林业产品及不属别类的谷物；活动物；新鲜水果和蔬菜；种籽，草木及花卉；动物饲料；麦芽"
-    },
-    {
-      "id": 1244,
-      "typeId": 119,
-      "name": "第32类-啤酒饮料",
-      "value": "32",
-      "orderNum": 32,
-      "parentId": null,
-      "remark": "啤酒；矿泉水和汽水以及其他不含酒精的饮料；水果饮料及果汁；糖浆及其他制饮料用的制剂"
-    },
-    {
-      "id": 1245,
-      "typeId": 119,
-      "name": "第33类-酒精饮料",
-      "value": "33",
-      "orderNum": 33,
-      "parentId": null,
-      "remark": "含酒精的饮料（啤酒除外）"
-    },
-    {
-      "id": 1246,
-      "typeId": 119,
-      "name": "第34类-烟草烟具",
-      "value": "34",
-      "orderNum": 34,
-      "parentId": null,
-      "remark": "烟草；烟具；火柴"
-    },
-    {
-      "id": 1247,
-      "typeId": 119,
-      "name": "第35类-广告销售",
-      "value": "35",
-      "orderNum": 35,
-      "parentId": null,
-      "remark": "广告；商业经营；商业管理；办公事务"
-    },
-    {
-      "id": 1248,
-      "typeId": 119,
-      "name": "第36类-金融物管",
-      "value": "36",
-      "orderNum": 36,
-      "parentId": null,
-      "remark": "保险；金融事务；货币事务；不动产事务"
-    },
-    {
-      "id": 1249,
-      "typeId": 119,
-      "name": "第37类-建筑修理",
-      "value": "37",
-      "orderNum": 37,
-      "parentId": null,
-      "remark": "房屋建筑；修理；安装服务"
-    },
-    {
-      "id": 1250,
-      "typeId": 119,
-      "name": "第38类-通讯服务",
-      "value": "38",
-      "orderNum": 38,
-      "parentId": null,
-      "remark": "电信"
-    },
-    {
-      "id": 1251,
-      "typeId": 119,
-      "name": "第39类-运输储藏",
-      "value": "39",
-      "orderNum": 39,
-      "parentId": null,
-      "remark": "运输；商品包装和贮藏；旅行安排"
-    },
-    {
-      "id": 1252,
-      "typeId": 119,
-      "name": "第40类-材料加工",
-      "value": "40",
-      "orderNum": 40,
-      "parentId": null,
-      "remark": "材料处理"
-    },
-    {
-      "id": 1253,
-      "typeId": 119,
-      "name": "第41类-教育娱乐",
-      "value": "41",
-      "orderNum": 41,
-      "parentId": null,
-      "remark": "教育；提供培训；娱乐；文体活动"
-    },
-    {
-      "id": 1254,
-      "typeId": 119,
-      "name": "第42类-网站服务",
-      "value": "42",
-      "orderNum": 42,
-      "parentId": null,
-      "remark": "科学技术服务和与之相关的研究与设计服务；工业分析与研究；计算机硬件与软件的设计与开发"
-    },
-    {
-      "id": 1255,
-      "typeId": 119,
-      "name": "第43类-餐饮住宿",
-      "value": "43",
-      "orderNum": 43,
-      "parentId": null,
-      "remark": "提供食物和饮料服务；临时住宿"
-    },
-    {
-      "id": 1256,
-      "typeId": 119,
-      "name": "第44类-医疗园艺",
-      "value": "44",
-      "orderNum": 44,
-      "parentId": null,
-      "remark": "医疗服务；兽医服务；人或动物的卫生和美容服务；农业、园艺或林业服务"
-    },
-    {
-      "id": 1257,
-      "typeId": 119,
-      "name": "第45类-社会服务",
-      "value": "45",
-      "orderNum": 45,
-      "parentId": null,
-      "remark": "法律服务；由他人提供的为满足个人需要的私人和社会服务；为保护财产和人身安全的服务"
-    },
-    {
-      "id": 1260,
-      "typeId": 120,
-      "name": "商标注册证书",
-      "value": "0",
-      "orderNum": 1,
-      "parentId": null,
-      "remark": "商标注册证书"
-    },
-    {
-      "id": 1261,
-      "typeId": 120,
-      "name": "申请缴收费",
-      "value": "1",
-      "orderNum": 2,
-      "parentId": null,
-      "remark": "申请缴收费通知"
-    },
-    {
-      "id": 1262,
-      "typeId": 120,
-      "name": "初步审定公告通知书",
-      "value": "2",
-      "orderNum": 3,
-      "parentId": null,
-      "remark": "初步审定公告通知书"
-    },
-    {
-      "id": 1263,
-      "typeId": 120,
-      "name": "异议缴收费",
-      "value": "3",
-      "orderNum": 4,
-      "parentId": null,
-      "remark": "异议缴收费通知"
-    },
-    {
-      "id": 1264,
-      "typeId": 120,
-      "name": "商标准予注册决定",
-      "value": "4",
-      "orderNum": 5,
-      "parentId": null,
-      "remark": "商标准予注册决定书"
-    },
-    {
-      "id": 1265,
-      "typeId": 120,
-      "name": "商标转让上申请注册商标申请",
-      "value": "5",
-      "orderNum": 6,
-      "parentId": null,
-      "remark": "商标转让上申请注册商标申请"
-    },
-    {
-      "id": 1266,
-      "typeId": 120,
-      "name": "商标评审申请受理通知书",
-      "value": "6",
-      "orderNum": 7,
-      "parentId": null,
-      "remark": "商标评审申请受理通知书"
-    },
-    {
-      "id": 1267,
-      "typeId": 120,
-      "name": "商标转让申请补正通知书",
-      "value": "7",
-      "orderNum": 8,
-      "parentId": null,
-      "remark": "商标转让申请补正通知书"
-    },
-    {
-      "id": 1268,
-      "typeId": 120,
-      "name": "驳回复审决定书",
-      "value": "8",
-      "orderNum": 9,
-      "parentId": null,
-      "remark": "驳回复审决定书"
-    },
-    {
-      "id": 1269,
-      "typeId": 120,
-      "name": "商标注册申请受理通知书",
-      "value": "9",
-      "orderNum": 10,
-      "parentId": null,
-      "remark": "商标注册申请受理通知书"
-    },
-    {
-      "id": 1270,
-      "typeId": 120,
-      "name": "商标注册申请缴费通知书",
-      "value": "10",
-      "orderNum": 11,
-      "parentId": null,
-      "remark": "商标注册申请缴费通知书"
-    },
-    {
-      "id": 1271,
-      "typeId": 120,
-      "name": "商标续展注册证明",
-      "value": "11",
-      "orderNum": 12,
-      "parentId": null,
-      "remark": "商标续展注册证明"
-    },
-    {
-      "id": 1272,
-      "typeId": 120,
-      "name": "商标注册申请补正通知书",
-      "value": "12",
-      "orderNum": 13,
-      "parentId": null,
-      "remark": "商标注册申请补正通知书"
-    },
-    {
-      "id": 1273,
-      "typeId": 120,
-      "name": "受理商标续展注册申请",
-      "value": "13",
-      "orderNum": 14,
-      "parentId": null,
-      "remark": "受理商标续展注册申请"
-    },
-    {
-      "id": 1274,
-      "typeId": 120,
-      "name": "商标驳回通知书",
-      "value": "14",
-      "orderNum": 15,
-      "parentId": null,
-      "remark": "商标驳回通知书"
-    },
-    {
-      "id": 1275,
-      "typeId": 120,
-      "name": "其它",
-      "value": "15",
-      "orderNum": 16,
-      "parentId": null,
-      "remark": "其他商标相关文档"
-    },
-    {
-      "id": 1276,
-      "typeId": 121,
-      "name": "未申请",
-      "value": "0",
-      "orderNum": 1,
-      "parentId": null,
-      "remark": "尚未开始申请流程",
-      "type": "info",
-      "color": "#909399"
-    },
-    {
-      "id": 1277,
-      "typeId": 121,
-      "name": "准备材料",
-      "value": "1",
-      "orderNum": 2,
-      "parentId": null,
-      "remark": "正在准备申请材料",
-      "type": "warning",
-      "color": "#E6A23C"
-    },
-    {
-      "id": 1278,
-      "typeId": 121,
-      "name": "待受理",
-      "value": "2",
-      "orderNum": 3,
-      "parentId": null,
-      "remark": "材料已提交，等待受理",
-      "type": "warning",
-      "color": "#E6A23C"
-    },
-    {
-      "id": 1279,
-      "typeId": 121,
-      "name": "已受理",
-      "value": "3",
-      "orderNum": 4,
-      "parentId": null,
-      "remark": "申请已被受理",
-      "type": "primary",
-      "color": "#409EFF"
-    },
-    {
-      "id": 1280,
-      "typeId": 121,
-      "name": "审核中",
-      "value": "4",
-      "orderNum": 5,
-      "parentId": null,
-      "remark": "正在审核过程中",
-      "type": "primary",
-      "color": "#409EFF"
-    },
-    {
-      "id": 1281,
-      "typeId": 121,
-      "name": "已登记",
-      "value": "5",
-      "orderNum": 6,
-      "parentId": null,
-      "remark": "已完成登记/注册/授权",
-      "type": "success",
-      "color": "#67C23A"
-    },
-    {
-      "id": 1282,
-      "typeId": 121,
-      "name": "再审",
-      "value": "6",
-      "orderNum": 7,
-      "parentId": null,
-      "remark": "进入再审/复审程序",
-      "type": "warning",
-      "color": "#E6A23C"
-    },
-    {
-      "id": 1283,
-      "typeId": 121,
-      "name": "已驳回",
-      "value": "7",
-      "orderNum": 8,
-      "parentId": null,
-      "remark": "申请被驳回",
-      "type": "danger",
-      "color": "#F56C6C"
-    },
-    {
-      "id": 1284,
-      "typeId": 121,
-      "name": "已失效",
-      "value": "8",
-      "orderNum": 9,
-      "parentId": null,
-      "remark": "权利已失效或过期",
-      "type": "danger",
-      "color": "#F56C6C"
-    }
-  ]
-}
+      "key": "intellectual_trademark_document_name",
+      "@childDatas": {
+        "dict_info": [
+          {
+            "id": 1260,
+            "typeId": "@id",
+            "name": "商标注册证",
+            "value": "0",
+            "orderNum": 1,
+            "parentId": null,
+            "remark": "商标注册证书"
+          },
+          {
+            "id": 1261,
+            "typeId": "@id",
+            "name": "商标注册申请书",
+            "value": "1",
+            "orderNum": 2,
+            "parentId": null,
+            "remark": "商标注册申请书"
+          },
+          {
+            "id": 1262,
+            "typeId": "@id",
+            "name": "商标转让申请书",
+            "value": "2",
+            "orderNum": 3,
+            "parentId": null,
+            "remark": "商标转让申请书"
+          },
+          {
+             "id": 1263,
+             "typeId": "@id",
+             "name": "初步审定公告通知书",
+             "value": "3",
+             "orderNum": 4,
+             "parentId": null,
+             "remark": "商标初步审定公告通知书"
+           },
+           {
+             "id": 1264,
+             "typeId": "@id",
+             "name": "商标注册公告通知书",
+             "value": "4",
+             "orderNum": 5,
+             "parentId": null,
+             "remark": "商标注册公告通知书"
+           },
+           {
+             "id": 1265,
+             "typeId": "@id",
+             "name": "商标续展注册证明",
+             "value": "5",
+             "orderNum": 6,
+             "parentId": null,
+             "remark": "商标续展注册证明"
+           },
+           {
+             "id": 1266,
+             "typeId": "@id",
+             "name": "商标变更证明",
+             "value": "6",
+             "orderNum": 7,
+             "parentId": null,
+             "remark": "商标变更证明"
+           },
+           {
+             "id": 1267,
+             "typeId": "@id",
+             "name": "商标转让证明",
+             "value": "7",
+             "orderNum": 8,
+             "parentId": null,
+             "remark": "商标转让证明"
+           },
+           {
+             "id": 1268,
+             "typeId": "@id",
+             "name": "商标使用许可备案通知书",
+             "value": "8",
+             "orderNum": 9,
+             "parentId": null,
+             "remark": "商标使用许可备案通知书"
+           },
+           {
+             "id": 1269,
+             "typeId": "@id",
+             "name": "商标撤销决定书",
+             "value": "9",
+             "orderNum": 10,
+             "parentId": null,
+             "remark": "商标撤销决定书"
+           },
+           {
+             "id": 1270,
+             "typeId": "@id",
+             "name": "商标无效宣告决定书",
+             "value": "10",
+             "orderNum": 11,
+             "parentId": null,
+             "remark": "商标无效宣告决定书"
+           },
+           {
+             "id": 1271,
+             "typeId": "@id",
+             "name": "商标驳回通知书",
+             "value": "11",
+             "orderNum": 12,
+             "parentId": null,
+             "remark": "商标驳回通知书"
+           },
+           {
+             "id": 1272,
+             "typeId": "@id",
+             "name": "商标异议答辩通知书",
+             "value": "12",
+             "orderNum": 13,
+             "parentId": null,
+             "remark": "商标异议答辩通知书"
+           },
+           {
+             "id": 1273,
+             "typeId": "@id",
+             "name": "商标异议裁定书",
+             "value": "13",
+             "orderNum": 14,
+             "parentId": null,
+             "remark": "商标异议裁定书"
+           },
+           {
+             "id": 1274,
+             "typeId": "@id",
+             "name": "其他",
+             "value": "14",
+             "orderNum": 15,
+             "parentId": null,
+             "remark": "其他商标相关文档"
+           }
+         ]
+       }
+     },
+     {
+       "id": 121,
+       "name": "商标法律状态",
+       "key": "intellectual_trademark_legal_status",
+       "@childDatas": {
+         "dict_info": [
+           {
+             "id": 1275,
+             "typeId": "@id",
+             "name": "申请中",
+             "value": "0",
+             "orderNum": 1,
+             "parentId": null,
+             "remark": "商标申请中"
+           },
+           {
+             "id": 1276,
+             "typeId": "@id",
+             "name": "初步审定公告",
+             "value": "1",
+             "orderNum": 2,
+             "parentId": null,
+             "remark": "商标初步审定公告"
+           },
+           {
+             "id": 1277,
+             "typeId": "@id",
+             "name": "注册公告",
+             "value": "2",
+             "orderNum": 3,
+             "parentId": null,
+             "remark": "商标注册公告"
+           },
+           {
+             "id": 1278,
+             "typeId": "@id",
+             "name": "有效",
+             "value": "3",
+             "orderNum": 4,
+             "parentId": null,
+             "remark": "商标有效"
+           },
+           {
+             "id": 1279,
+             "typeId": "@id",
+             "name": "续展",
+             "value": "4",
+             "orderNum": 5,
+             "parentId": null,
+             "remark": "商标续展"
+           },
+           {
+             "id": 1280,
+             "typeId": "@id",
+             "name": "转让",
+             "value": "5",
+             "orderNum": 6,
+             "parentId": null,
+             "remark": "商标转让"
+           },
+           {
+             "id": 1281,
+             "typeId": "@id",
+             "name": "变更",
+             "value": "6",
+             "orderNum": 7,
+             "parentId": null,
+             "remark": "商标变更"
+           },
+           {
+             "id": 1282,
+             "typeId": "@id",
+             "name": "许可",
+             "value": "7",
+             "orderNum": 8,
+             "parentId": null,
+             "remark": "商标许可"
+           },
+           {
+             "id": 1283,
+             "typeId": "@id",
+             "name": "质押",
+             "value": "8",
+             "orderNum": 9,
+             "parentId": null,
+             "remark": "商标质押"
+           },
+           {
+             "id": 1284,
+             "typeId": "@id",
+             "name": "撤销",
+             "value": "9",
+             "orderNum": 10,
+             "parentId": null,
+             "remark": "商标撤销"
+           },
+           {
+             "id": 1285,
+             "typeId": "@id",
+             "name": "无效",
+             "value": "10",
+             "orderNum": 11,
+             "parentId": null,
+             "remark": "商标无效"
+           },
+           {
+             "id": 1286,
+             "typeId": "@id",
+             "name": "驳回",
+             "value": "11",
+             "orderNum": 12,
+             "parentId": null,
+             "remark": "商标驳回"
+           },
+           {
+             "id": 1287,
+             "typeId": "@id",
+             "name": "异议",
+             "value": "12",
+             "orderNum": 13,
+             "parentId": null,
+             "remark": "商标异议"
+           },
+           {
+             "id": 1288,
+             "typeId": "@id",
+             "name": "失效",
+             "value": "13",
+             "orderNum": 14,
+             "parentId": null,
+             "remark": "商标失效"
+           }
+         ]
+       }
+     }
+   ]
+ }
