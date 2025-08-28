@@ -11,7 +11,7 @@ import { HealthUserService } from '../../service/user';
   entity: HealthUserEntity,
   service: HealthUserService,
   pageQueryOp: {
-    keyWordLikeFields: ['a.name', 'a.account'],
+    keyWordLikeFields: ['a.name', 'a.number'],
     fieldEq: ['a.gender'],
   },
 })
